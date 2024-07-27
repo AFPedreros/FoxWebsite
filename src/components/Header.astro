@@ -4,13 +4,13 @@ import { Image } from "astro:assets"
 import foxLogo from "@/assets/logo-fox-ordering.png"
 import HeaderLink from "@/components/HeaderLink.astro"
 import Link from "@/components/Link.astro"
+import { FreeDemoDialog } from "@/components/free-demo-dialog"
 import Phone from "@/components/icons/Phone.astro"
-import { Button } from "@/components/ui/button"
 ---
 
 <header
 	id="header-nav"
-	class="fixed z-50 flex h-20 w-full items-center bg-transparent px-9 text-foreground shadow-sm"
+	class="fixed z-50 flex h-20 w-full items-center bg-transparent px-9 text-foreground"
 >
 	<nav class="flex w-full items-center justify-between">
 		<a href="/"><Image class="h-12 w-auto" src={foxLogo} alt="Fox Ordering logo." /></a>
@@ -23,20 +23,20 @@ import { Button } from "@/components/ui/button"
 			<Link class="flex items-center" href="tel:8668836967" target="_blank"
 				><Phone class="mr-2 size-4 shrink-0" /> 866-883-6967
 			</Link>
-			<Button>Get a free demo</Button>
+			<FreeDemoDialog client:load triggerButtonText="Get a free demo" />
 		</div>
 	</nav>
-</header>
-<style>
-	#header-nav {
-		animation: blur linear both;
-		animation-timeline: scroll(root);
-		animation-range: 0 200px;
-	}
-
-	@keyframes blur {
-		to {
-			background-color: hsl(var(--background));
+	<style>
+		#header-nav {
+			animation: blur linear both;
+			animation-timeline: scroll(root);
+			animation-range: 0 200px;
 		}
-	}
-</style>
+
+		@keyframes blur {
+			to {
+				background-color: hsl(var(--background));
+			}
+		}
+	</style>
+</header>
