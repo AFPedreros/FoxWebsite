@@ -87,7 +87,9 @@ export function FreeDemoForm() {
 					name="name"
 					render={({ field }) => (
 						<FormItem className="col-span-2">
-							<FormLabel>Name</FormLabel>
+							<FormLabel>
+								Name<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="John" {...field} />
 							</FormControl>
@@ -100,7 +102,9 @@ export function FreeDemoForm() {
 					name="lastName"
 					render={({ field }) => (
 						<FormItem className="col-span-2">
-							<FormLabel>Last name</FormLabel>
+							<FormLabel>
+								Last name<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="Doe" {...field} />
 							</FormControl>
@@ -114,7 +118,9 @@ export function FreeDemoForm() {
 					name="email"
 					render={({ field }) => (
 						<FormItem className="col-span-2">
-							<FormLabel>Email</FormLabel>
+							<FormLabel>
+								Email<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="johndoe@example.com" {...field} />
 							</FormControl>
@@ -127,7 +133,9 @@ export function FreeDemoForm() {
 					name="phone"
 					render={({ field }) => (
 						<FormItem className="col-span-2">
-							<FormLabel>Phone</FormLabel>
+							<FormLabel>
+								Phone<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="6019521325" {...field} />
 							</FormControl>
@@ -141,7 +149,9 @@ export function FreeDemoForm() {
 					name="restaurantName"
 					render={({ field }) => (
 						<FormItem className="col-span-4">
-							<FormLabel>Restaurant name</FormLabel>
+							<FormLabel>
+								Restaurant name<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="My Restaurant" {...field} />
 							</FormControl>
@@ -155,7 +165,9 @@ export function FreeDemoForm() {
 					name="restaurantAddress"
 					render={({ field }) => (
 						<FormItem className="col-span-4">
-							<FormLabel>Restaurant address</FormLabel>
+							<FormLabel>
+								Restaurant address<span className="text-primary">*</span>
+							</FormLabel>
 							<FormControl>
 								<Input placeholder="1600 Amphitheatre Parkway" {...field} />
 							</FormControl>

@@ -12,7 +12,7 @@ const { title, description } = Astro.props
 	<head>
 		<BaseHead title={title} description={description} />
 	</head>
-	<body class="dark w-screen overflow-x-hidden">
+	<body class="dark w-full overflow-x-hidden">
 		<Header />
 		<slot />
 		<Footer />
@@ -22,6 +22,7 @@ const { title, description } = Astro.props
 	html {
 		scroll-behavior: smooth;
 		overflow-x: hidden;
+		width: 100%;
 	}
 
 	@media (prefers-reduced-motion: reduce) {
