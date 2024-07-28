@@ -40,6 +40,8 @@ module.exports = {
 		"@stylistic/js/no-mixed-spaces-and-tabs": "off",
 		"no-unused-vars": "off",
 		"@typescript-eslint/no-unused-vars": "off",
+		"@typescript-eslint/no-misused-promises": "off",
+		"@typescript-eslint/no-unsafe-assignment": "off",
 		"unused-imports/no-unused-imports": "warn",
 		"object-curly-newline": [
 			"warn",

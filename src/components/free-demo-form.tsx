@@ -60,7 +60,7 @@ export function FreeDemoForm() {
 
 	return (
 		<Form {...form}>
-			<form className="grid grid-cols-4 gap-4 py-4" onSubmit={form.handleSubmit(onSubmit)}>
+			<form className="grid grid-cols-4 gap-4" onSubmit={form.handleSubmit(onSubmit)}>
 				<FormField
 					control={form.control}
 					name="isOwner"
@@ -141,7 +141,7 @@ export function FreeDemoForm() {
 					name="restaurantName"
 					render={({ field }) => (
 						<FormItem className="col-span-4">
-							<FormLabel>Restaurant's name</FormLabel>
+							<FormLabel>Restaurant name</FormLabel>
 							<FormControl>
 								<Input placeholder="My Restaurant" {...field} />
 							</FormControl>
@@ -155,7 +155,7 @@ export function FreeDemoForm() {
 					name="restaurantAddress"
 					render={({ field }) => (
 						<FormItem className="col-span-4">
-							<FormLabel>Restaurant's address</FormLabel>
+							<FormLabel>Restaurant address</FormLabel>
 							<FormControl>
 								<Input placeholder="1600 Amphitheatre Parkway" {...field} />
 							</FormControl>
