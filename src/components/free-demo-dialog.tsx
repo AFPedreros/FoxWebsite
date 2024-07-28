@@ -2,13 +2,12 @@ import { Button } from "@/components/ui/button"
 import {
 	Dialog,
 	DialogContent,
-	DialogFooter,
+	DialogDescription,
 	DialogHeader,
 	DialogTitle,
 	DialogTrigger,
 } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { FreeDemoForm } from "@/components/free-demo-form"
 
 interface FreeDemoDialogProps {
 	triggerButtonText: string
@@ -20,29 +19,19 @@ export function FreeDemoDialog({ triggerButtonText }: FreeDemoDialogProps) {
 			<DialogTrigger asChild>
 				<Button>{triggerButtonText}</Button>
 			</DialogTrigger>
+
 			<DialogContent className="sm:max-w-[425px]">
 				<DialogHeader>
 					<DialogTitle className="text-balance text-center text-2xl font-normal">
 						Are you the owner or manager of the restaurant?
 					</DialogTitle>
+					<DialogDescription className="sr-only">
+						This form allows restaurant owners or managers to sign up for a free demo of our
+						services.
+					</DialogDescription>
 				</DialogHeader>
-				<div className="grid gap-4 py-4">
-					<div className="grid grid-cols-4 items-center gap-4">
-						<Label htmlFor="name" className="text-right">
-							Name
-						</Label>
-						<Input id="name" defaultValue="Pedro Duarte" className="col-span-3" />
-					</div>
-					<div className="grid grid-cols-4 items-center gap-4">
-						<Label htmlFor="username" className="text-right">
-							Username
-						</Label>
-						<Input id="username" defaultValue="@peduarte" className="col-span-3" />
-					</div>
-				</div>
-				<DialogFooter>
-					<Button type="submit">Send</Button>
-				</DialogFooter>
+
+				<FreeDemoForm />
 			</DialogContent>
 		</Dialog>
 	)

@@ -15,8 +15,10 @@
     "format:check": "prettier --check src"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "astro": "^4.12.2",
     "class-variance-authority": "^0.7.0",
@@ -24,7 +26,9 @@
     "lucide-react": "^0.416.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwind-merge": "^2.4.0"
+    "react-hook-form": "^7.52.1",
+    "tailwind-merge": "^2.4.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.43.1",
