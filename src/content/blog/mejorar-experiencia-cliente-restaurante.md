@@ -1,10 +1,11 @@
 ---
 title: "Consejos para Mejorar la Experiencia del Cliente en tu Restaurante"
 description: "Lorem ipsum dolor sit amet"
+lang: "es"
 pubDate: "Jul 08 2018"
 heroImage: "/blog-placeholder-3.jpg"
 author: "MONICA PINEDA"
-lang: "es"
+authorImage: "/monica_author.webp"
 ---
 
 En el mundo de la gastronomía, ofrecer una experiencia excepcional al cliente es esencial para el éxito y la fidelización. Un cliente satisfecho no solo regresa, sino que también recomienda tu restaurante a amigos y familiares. Te dejamos algunos consejos prácticos para mejorar la experiencia del cliente en tu restaurante en 2024.

@@ -6,7 +6,7 @@ import Header from "../components/Header.astro"
 
 type Props = CollectionEntry<"blog">["data"]
 
-const { title, description, pubDate, updatedDate, heroImage, author } = Astro.props
+const { title, description, pubDate, updatedDate, heroImage, author, authorImage } = Astro.props
 ---
 
 <html class="w-full overflow-x-hidden" lang="en">
@@ -32,11 +32,7 @@ const { title, description, pubDate, updatedDate, heroImage, author } = Astro.pr
 					{
 						author && (
 							<div class="flex items-center justify-start gap-2">
-								<img
-									class="size-10 rounded-full bg-cover bg-center"
-									src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-									alt=""
-								/>
+								<img class="size-10 rounded-full bg-cover bg-center" src={authorImage} alt="" />
 								<span class="text-xs text-border">by {author}</span>
 							</div>
 						)
