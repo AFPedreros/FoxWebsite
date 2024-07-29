@@ -3,28 +3,41 @@ import { Image } from "astro:assets"
 
 import foxLogo from "@/assets/logo-fox-ordering.png"
 import HeaderLink from "@/components/HeaderLink.astro"
-import Link from "@/components/Link.astro"
+import LanguageSelector from "@/components/LanguageSelector.astro"
 import { FreeDemoDialog } from "@/components/free-demo-dialog"
-import Phone from "@/components/icons/Phone.astro"
+import { getI18N } from "@/i18n"
+import { getLangFromUrl, useTranslatedPath, useTranslations } from "@/i18n/utils"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const translatePath = useTranslatedPath(lang)
+// import Phone from "@/components/icons/Phone.astro"
+// import Link from "@/components/Link.astro"
 ---
 
 <header
 	id="header-nav"
-	class="fixed z-50 flex h-20 w-full items-center bg-transparent px-9 text-foreground"
+	class="fixed z-50 flex h-20 w-full items-center bg-background px-9 text-foreground"
 >
 	<nav class="flex w-full items-center justify-between">
-		<a href="/"><Image class="h-12 w-auto" src={foxLogo} alt="Fox Ordering logo." /></a>
+		<a href={translatePath("/")} aria-label={i18n.HEADER.LOGO}
+			><Image class="h-12 w-auto" src={foxLogo} alt="Fox Ordering logo." /></a
+		>
 		<div class="flex items-center gap-4">
-			<HeaderLink href="#">What we Offer</HeaderLink>
-			<HeaderLink href="/about">About Us</HeaderLink>
-			<HeaderLink href="#">Support</HeaderLink>
-			<HeaderLink href="#">Order Online</HeaderLink>
+			<HeaderLink href={translatePath("/what-we-offer")}>{i18n.HEADER_WHAT_WE_OFFER}</HeaderLink>
+			<HeaderLink href="#">{i18n.HEADER_ABOUT_US}</HeaderLink>
+			<HeaderLink href="#">{i18n.HEADER_SUPPORT}</HeaderLink>
+			<HeaderLink href="#">{i18n.HEADER_ORDER_ONLINE}</HeaderLink>
 		</div>
 		<div class="flex items-center gap-4">
-			<Link class="flex items-center" href="tel:8668836967" target="_blank"
+			<LanguageSelector />
+			<!-- <Link class="flex items-center" href="tel:8668836967" target="_blank"
 				><Phone class="mr-2 size-4 shrink-0" /> 866-883-6967
-			</Link>
-			<FreeDemoDialog client:load triggerButtonText="Get a free demo" />
+			</Link> -->
+			<FreeDemoDialog client:load locale={currentLocale || "en"} />
 		</div>
 	</nav>
 	<style>

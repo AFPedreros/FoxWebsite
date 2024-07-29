@@ -1,0 +1,84 @@
+{
+  "SEO_TITLE": "Fox Ordering",
+  "SEO_DESCRIPTION": "Fox Ordering is a simple ordering system for restaurants.",
+  "SEO": {
+    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores - Premios ESLAND",
+    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
+    "INFO_TITLE": "Información - Premios ESLAND",
+    "INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber sobre los Premios ESLAND",
+    "INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
+    "VOTE_TITLE": "Vota por tus creadores de contenido favoritos - Premios ESLAND",
+    "VOTE_DESCRIPTION": "Vota por tus creadores de contenido favoritos de España, Latinoamérica y Andorra",
+    "LEGAL_NOTICE_TITLE": "Aviso legal - Premios ESLAND",
+    "LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con los Premios ESLAND, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
+    "PRIVACY_POLICY_TITLE": "Política de privacidad - Premios ESLAND",
+    "PRIVACY_POLICY_DESCRIPTION": "La Política de Privacidad de los Premios ESLAND describe cómo se recopilan, utilizan, protegen y comparten los datos personales de los usuarios",
+    "COOKIES_TITLE": "Política de cookies - Premios ESLAND",
+    "COOKIES_DESCRIPTION": "La Política de Cookies de los Premios ESLAND informa sobre el uso de cookies y tecnologías similares en el sitio web",
+    "ERROR_404_TITLE": "404 Página no encontrada - Premios ESLAND",
+    "ERROR_404_DESCRIPTION": "Página no encontrada (Error 404). Verifica la URL o explora nuestras secciones. ¿Necesitas ayuda? Contáctenos."
+  },
+  "HEADER": {
+    "LOGO": "Back to Fox Ordering home page"
+  },
+  "HEADER_WHAT_WE_OFFER": "What we Offer",
+  "HEADER_ABOUT_US": "About Us",
+  "HEADER_SUPPORT": "Support",
+  "HEADER_ORDER_ONLINE": "Order Online",
+  "HEADER_BUTTON": "Get a free demo",
+  "HERO_TITLE": "Unleash your Restaurant’s Success!",
+  "HERO_SUBTITLE": "<strong>Increase sales, orders, & maximize profits.</strong> Try our personalized ordering system and experience the best direct online ordering service for your restaurant <strong>#FoxExperience.</strong>",
+  "OWNER_FORM": {
+    "TITLE": "Are you the owner or manager of the restaurant?",
+    "DESCRIPTION": "This form allows restaurant owners or managers to sign up for a free demo of our services.",
+    "YES": "Yes",
+    "NO": "No",
+    "LABEL_NAME": "Name",
+    "LABEL_LAST_NAME": "Last Name",
+    "LABEL_EMAIL": "Email",
+    "LABEL_PHONE": "Phone",
+    "LABEL_RESTAURANT_NAME": "Restaurant Name",
+    "LABEL_RESTAURANT_ADDRESS": "Restaurant Address",
+    "PLACEHOLDER_NAME": "John",
+    "PLACEHOLDER_LAST_NAME": "Doe",
+    "PLACEHOLDER_EMAIL": "johndoe@example.com",
+    "PLACEHOLDER_PHONE": "123-456-7890",
+    "PLACEHOLDER_RESTAURANT_NAME": "Restaurant Name",
+    "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Main St, City, State, Zip",
+    "BUTTON": "Send"
+  },
+  "FOOTER": {
+    "COMPANY": {
+      "TITLE": "Company",
+      "WHY_FOX": "Why Fox Ordering",
+      "ABOUT_US": "About Us",
+      "SUCCESS_STORIES": "Success Stories",
+      "BLOG": "Blog",
+      "WORK_WITH_US": "Work with Us"
+    },
+    "PARTNER": {
+      "TITLE": "Become a Partner",
+      "ORDER_ONLINE": "Order Online",
+      "PARTNERS_AND_INTEGRATIONS": "Our Partners & Integrations",
+      "FROM_THE_RESTAURANT": "FromTheRestaurant",
+      "REFER_RESTAURANT": "Refer a Restaurant"
+    },
+    "CONTACT_US": {
+      "TITLE": "Contact Us",
+      "PHONE": " 866-883-6967 ",
+      "EMAIL": "contact@foxordering.com"
+    },
+    "SUPPORT": {
+      "TITLE": "Support",
+      "FAQ": "Frequently Asked Questions",
+      "SPEAK_WITH_AGENT": "Speak with an Agent",
+      "GOOGLE_3RD_PARTY": "Google 3rd Party Disclosure Statement"
+    },
+    "FOOTER_BUTTON": "Order food"
+  },
+  "WHAT_WE_OFFER": {
+    "HERO_TITLE": "Direct Ordering",
+    "HERO_SUBTITLE": "Your business is our top priority",
+    "HERO_TEXT": "We’re here to help your business grow and <strong>maximize profits.</strong> Our small convenience fee is 5% over the subtotal order value, however this fee can be paid by your customers."
+  }
+}

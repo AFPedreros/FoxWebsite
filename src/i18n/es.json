@@ -1,0 +1,84 @@
+{
+  "SEO_TITLE": "Fox Ordering",
+  "SEO_DESCRIPTION": "Fox Ordering es un sistema de pedidos simple para restaurantes.",
+  "SEO": {
+    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores - Premios ESLAND",
+    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
+    "INFO_TITLE": "Información - Premios ESLAND",
+    "INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber sobre los Premios ESLAND",
+    "INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
+    "VOTE_TITLE": "Vota por tus creadores de contenido favoritos - Premios ESLAND",
+    "VOTE_DESCRIPTION": "Vota por tus creadores de contenido favoritos de España, Latinoamérica y Andorra",
+    "LEGAL_NOTICE_TITLE": "Aviso legal - Premios ESLAND",
+    "LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con los Premios ESLAND, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
+    "PRIVACY_POLICY_TITLE": "Política de privacidad - Premios ESLAND",
+    "PRIVACY_POLICY_DESCRIPTION": "La Política de Privacidad de los Premios ESLAND describe cómo se recopilan, utilizan, protegen y comparten los datos personales de los usuarios",
+    "COOKIES_TITLE": "Política de cookies - Premios ESLAND",
+    "COOKIES_DESCRIPTION": "La Política de Cookies de los Premios ESLAND informa sobre el uso de cookies y tecnologías similares en el sitio web",
+    "ERROR_404_TITLE": "404 Página no encontrada - Premios ESLAND",
+    "ERROR_404_DESCRIPTION": "Página no encontrada (Error 404). Verifica la URL o explora nuestras secciones. ¿Necesitas ayuda? Contáctenos."
+  },
+  "HEADER": {
+    "LOGO": "Volver a la página de inicio de lo Fox Ordering"
+  },
+  "HEADER_WHAT_WE_OFFER": "Nuestros Servicios",
+  "HEADER_ABOUT_US": "Sobre Nosotros",
+  "HEADER_SUPPORT": "Soporte",
+  "HEADER_ORDER_ONLINE": "Ordena en Línea",
+  "HEADER_BUTTON": "Obtener demo gratis",
+  "HERO_TITLE": "¡Desata el Éxito de tu Restaurante!",
+  "HERO_SUBTITLE": "<strong>Incrementa ventas, ordenes, y maximiza ganancias.</strong> Prueba nuestro sistema de pedidos en línea personalizado y experimenta el mejor servicio de pedidos en línea directo para tu restaurante <strong>#FoxExperience.</strong>",
+  "OWNER_FORM": {
+    "TITLE": "¿Eres el dueño o gerente del restaurante?",
+    "DESCRIPTION": "Este formulario permite a los dueños o gerentes de restaurantes registrarse para una demostración gratuita de nuestros servicios.",
+    "YES": "Sí",
+    "NO": "No",
+    "LABEL_NAME": "Nombre",
+    "LABEL_LAST_NAME": "Apellido",
+    "LABEL_EMAIL": "Correo Electrónico",
+    "LABEL_PHONE": "Teléfono",
+    "LABEL_RESTAURANT_NAME": "Nombre del Restaurante",
+    "LABEL_RESTAURANT_ADDRESS": "Dirección del Restaurante",
+    "PLACEHOLDER_NAME": "Juan",
+    "PLACEHOLDER_LAST_NAME": "Pérez",
+    "PLACEHOLDER_EMAIL": "juanperez@ejemplo.com",
+    "PLACEHOLDER_PHONE": "123-456-7890",
+    "PLACEHOLDER_RESTAURANT_NAME": "Nombre del Restaurante",
+    "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Calle Principal, Ciudad, Estado, Código Postal",
+    "BUTTON": "Enviar"
+  },
+  "FOOTER": {
+    "COMPANY": {
+      "TITLE": "Empresa",
+      "WHY_FOX": "¿Por qué Fox Ordering?",
+      "ABOUT_US": "Sobre Nosotros",
+      "SUCCESS_STORIES": "Testimonios",
+      "BLOG": "Blog",
+      "WORK_WITH_US": "Trabajos con Nosotros"
+    },
+    "PARTNER": {
+      "TITLE": "Sé nuestro Socio",
+      "ORDER_ONLINE": "Ordena en Línea",
+      "PARTNERS_AND_INTEGRATIONS": "Nuestros Aliados e Integraciones",
+      "FROM_THE_RESTAURANT": "FromTheRestaurant",
+      "REFER_RESTAURANT": "Refiere un Restaurante"
+    },
+    "CONTACT_US": {
+      "TITLE": "Contáctanos",
+      "PHONE": " 866-883-6967 ",
+      "EMAIL": "contact@foxordering.com"
+    },
+    "SUPPORT": {
+      "TITLE": "Soporte",
+      "FAQ": "Preguntas Frecuentes",
+      "SPEAK_WITH_AGENT": "Hablar con un Representante",
+      "GOOGLE_3RD_PARTY": "Declaración de Divulgación de Terceros de Google"
+    },
+    "FOOTER_BUTTON": "Order food"
+  },
+  "WHAT_WE_OFFER": {
+    "HERO_TITLE": "Órdenes Directas",
+    "HERO_SUBTITLE": "Tu restaurante es nuestra prioridad.",
+    "HERO_TEXT": "Estamos aquí para ayudar que tu negocio crezca y <strong>maximizar ganancias.</strong> Contamos con la tasa más baja del mercado de un 5%, sin embargo, esta comisión la puede pagar el cliente final."
+  }
+}

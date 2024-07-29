@@ -8,30 +8,30 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog"
 import { FreeDemoForm } from "@/components/free-demo-form"
+import { getI18N } from "@/i18n"
 
 interface FreeDemoDialogProps {
-	triggerButtonText: string
+	locale: string
 }
 
-export function FreeDemoDialog({ triggerButtonText }: FreeDemoDialogProps) {
+export function FreeDemoDialog({ locale }: FreeDemoDialogProps) {
+	const i18n = getI18N({ currentLocale: locale })
+
 	return (
 		<Dialog>
 			<DialogTrigger asChild>
-				<Button>{triggerButtonText}</Button>
+				<Button>{i18n.HEADER_BUTTON}</Button>
 			</DialogTrigger>
 
 			<DialogContent className="sm:max-w-[425px]">
 				<DialogHeader>
 					<DialogTitle className="text-balance text-center text-2xl font-normal">
-						Are you the owner or manager of the restaurant?
+						{i18n.OWNER_FORM.TITLE}
 					</DialogTitle>
-					<DialogDescription className="sr-only">
-						This form allows restaurant owners or managers to sign up for a free demo of our
-						services.
-					</DialogDescription>
+					<DialogDescription className="sr-only">{i18n.OWNER_FORM.DESCRIPTION}</DialogDescription>
 				</DialogHeader>
 
-				<FreeDemoForm />
+				<FreeDemoForm locale={locale} />
 			</DialogContent>
 		</Dialog>
 	)

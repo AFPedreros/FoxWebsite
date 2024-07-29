@@ -19,6 +19,7 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "@/components/ui/select"
+import { getI18N } from "@/i18n"
 
 const phoneValidation = /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
 
@@ -37,7 +38,13 @@ const formSchema = z.object({
 	restaurantAddress: z.string().min(1, { message: "Complete this field" }),
 })
 
-export function FreeDemoForm() {
+interface FreeDemoFormgProps {
+	locale: string
+}
+
+export function FreeDemoForm({ locale }: FreeDemoFormgProps) {
+	const i18n = getI18N({ currentLocale: locale })
+
 	const form = useForm<z.infer<typeof formSchema>>({
 		resolver: zodResolver(formSchema),
 		defaultValues: {
@@ -73,8 +80,8 @@ export function FreeDemoForm() {
 									</SelectTrigger>
 								</FormControl>
 								<SelectContent>
-									<SelectItem value="yes">Yes</SelectItem>
-									<SelectItem value="no">No</SelectItem>
+									<SelectItem value="yes">{i18n.OWNER_FORM.YES}</SelectItem>
+									<SelectItem value="no">{i18n.OWNER_FORM.NO}</SelectItem>
 								</SelectContent>
 							</Select>
 							<FormMessage />
@@ -88,10 +95,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-2">
 							<FormLabel>
-								Name<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_NAME}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="John" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_NAME} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -103,10 +111,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-2">
 							<FormLabel>
-								Last name<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_LAST_NAME}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="Doe" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_LAST_NAME} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -119,10 +128,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-2">
 							<FormLabel>
-								Email<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_EMAIL}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="johndoe@example.com" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_EMAIL} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -134,10 +144,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-2">
 							<FormLabel>
-								Phone<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_PHONE}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="6019521325" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_PHONE} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -150,10 +161,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-4">
 							<FormLabel>
-								Restaurant name<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_RESTAURANT_NAME}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="My Restaurant" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_RESTAURANT_NAME} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -166,10 +178,11 @@ export function FreeDemoForm() {
 					render={({ field }) => (
 						<FormItem className="col-span-4">
 							<FormLabel>
-								Restaurant address<span className="text-primary">*</span>
+								{i18n.OWNER_FORM.LABEL_RESTAURANT_ADDRESS}
+								<span className="text-primary">*</span>
 							</FormLabel>
 							<FormControl>
-								<Input placeholder="1600 Amphitheatre Parkway" {...field} />
+								<Input placeholder={i18n.OWNER_FORM.PLACEHOLDER_RESTAURANT_ADDRESS} {...field} />
 							</FormControl>
 							<FormMessage />
 						</FormItem>
@@ -183,7 +196,7 @@ export function FreeDemoForm() {
 					{form.formState.isSubmitting && (
 						<LoaderCircle className="mr-2 size-4 shrink-0 animate-spin" aria-hidden="true" />
 					)}
-					Send
+					{i18n.OWNER_FORM.BUTTON}
 				</Button>
 			</form>
 		</Form>

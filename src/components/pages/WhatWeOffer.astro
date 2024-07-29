@@ -1,0 +1,32 @@
+---
+import { getI18N } from "@/i18n"
+import RootLayout from "@/layouts/RootLayout.astro"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<RootLayout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
+	<main>
+		<section class="hero mt-20 flex min-h-screen w-full py-20">
+			<div class="container flex h-fit items-center gap-8">
+				<div class="max-w-md">
+					<h1 class="mx-auto text-5xl tracking-tighter text-primary md:text-6xl lg:text-7xl">
+						{i18n.WHAT_WE_OFFER.HERO_TITLE}
+					</h1>
+					<h2 class="mt-8 text-pretty text-lg text-black">{i18n.WHAT_WE_OFFER.HERO_SUBTITLE}</h2>
+					<p set:html={i18n.WHAT_WE_OFFER.HERO_TEXT} class="mt-8 text-pretty text-black" />
+				</div>
+			</div>
+		</section>
+	</main>
+</RootLayout>
+
+<style>
+	.hero {
+		background-image: url("/banner-what-we-offer.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+</style>

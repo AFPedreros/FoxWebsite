@@ -1,0 +1,50 @@
+---
+import ChevronIcon from "@/components/icons/Chevron.astro"
+import { Button } from "@/components/ui/button"
+import { LANGUAGES } from "@/i18n/ui"
+import { getLangFromUrl, getRouteFromUrl, useTranslatedPath } from "@/i18n/utils"
+
+const route = getRouteFromUrl(Astro.url)
+const lang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(lang)
+
+const currentLocaleData = LANGUAGES[lang]
+const otherLocales = Object.values(LANGUAGES).filter((locale) => locale.code !== lang)
+---
+
+<div class="relative inline-block text-left">
+	<div
+		class="group rounded-md text-xs font-semibold text-white backdrop-blur-lg transition-all hover:backdrop-blur-none"
+	>
+		<Button
+			className="flex items-center gap-2 bg-transparent"
+			aria-expanded="true"
+			aria-haspopup="true"
+			variant="outline"
+		>
+			<currentLocaleData.flag />
+			{currentLocaleData.name}
+			<ChevronIcon
+				class="-mr-1 h-5 w-5 text-white transition-all duration-200 group-hover:rotate-180"
+			/>
+		</Button>
+
+		<ul
+			class="group-hover:animate-fade-down group-hover:animate-duration-200 absolute hidden w-full pt-0.5 group-hover:block"
+		>
+			{
+				otherLocales.map((locale) => (
+					<li class="py-[2px]">
+						<a
+							class="whitespace-no-wrap inline-flex w-full items-center justify-start gap-x-2 rounded-md bg-black/30 px-3 py-2 hover:bg-black/70"
+							href={translatePath(`/${route || ""}`, locale.code)}
+						>
+							<locale.flag />
+							{locale.name}
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</div>
+</div>
