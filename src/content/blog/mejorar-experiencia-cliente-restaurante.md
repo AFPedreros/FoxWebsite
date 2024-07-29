@@ -22,7 +22,7 @@ El ambiente de tu restaurante es fundamental para la experiencia del cliente. As
 
 Un menú bien diseñado es clave para una buena experiencia del cliente. Asegúrate de que sea fácil de leer y entender, con descripciones claras de cada plato. Ofrece opciones para diferentes preferencias dietéticas, como vegetarianas, veganas y libres de alérgenos. Mantén el menú actualizado y destaca los platos especiales para mantener el interés de los clientes.
 
-## 4. Use of Technology
+## 4. Uso de Tecnología
 
 La tecnología puede mejorar significativamente la experiencia del cliente. Implementa sistemas de pedidos en línea y reservas a través de tu sitio web o una aplicación móvil. Plataformas como **[Fox Ordering](https://foxordering.com/)** te pueden ayudar a gestionar de manera eficiente los pedidos, mejorando así la satisfacción del cliente.
 
