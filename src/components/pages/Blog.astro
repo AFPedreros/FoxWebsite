@@ -1,0 +1,62 @@
+---
+import { getCollection } from "astro:content"
+
+import { getI18N } from "@/i18n"
+import RootLayout from "@/layouts/RootLayout.astro"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+const posts = (await getCollection("blog")).sort(
+	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+)
+
+const englishPosts = posts.filter((post) => post.data.lang === "en")
+const spanishPosts = posts.filter((post) => post.data.lang === "es")
+---
+
+<RootLayout title={i18n.SEO.BLOG_TITLE} description={i18n.SEO.BLOG_DESCRIPTION}>
+	<main>
+		<section class="mt-20 flex min-h-screen w-full bg-white py-20">
+			<div class="container flex h-fit flex-col gap-8">
+				<h1
+					set:html={i18n.BLOG.HERO_TITLE}
+					class="text-5xl tracking-tighter text-black md:text-6xl lg:text-7xl"
+				/>
+
+				<ul class="grid grid-cols-3 gap-6">
+					{
+						currentLocale === "en" &&
+							englishPosts.map((post) => (
+								<li class="flex max-w-md flex-col gap-6 rounded-sm border-border/25 text-black">
+									<a class="flex flex-col gap-4" href={`/blog/${post.slug}`}>
+										<img class="h-auto rounded-sm" src={post.data.heroImage} alt="" />
+										<div>
+											<span class="text-xs text-border">by {post.data.author}</span>
+											<h4 class="text-xl font-bold">{post.data.title}</h4>
+										</div>
+										<p>{post.data.description}</p>
+									</a>
+								</li>
+							))
+					}
+					{
+						currentLocale === "es" &&
+							spanishPosts.map((post) => (
+								<li class="flex max-w-md flex-col gap-6 rounded-sm border-border/25 text-black">
+									<a class="flex flex-col gap-4" href={`blog/${post.slug}`}>
+										<img class="h-auto rounded-sm" src={post.data.heroImage} alt="" />
+										<div>
+											<span class="text-xs text-border">by {post.data.author}</span>
+											<h4 class="text-xl font-bold">{post.data.title}</h4>
+										</div>
+										<p>{post.data.description}</p>
+									</a>
+								</li>
+							))
+					}
+				</ul>
+			</div>
+		</section>
+	</main>
+</RootLayout>

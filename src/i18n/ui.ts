@@ -21,18 +21,26 @@ export const ui = {
 	es: {
 		"nav.inicio": "Inicio",
 		"nav.what-we-offer": "What we offer",
+		"nav.blog": "Blog",
 	},
 	en: {
 		"nav.inicio": "Home",
 		"nav.what-we-offer": "Nuestros servicios",
+		"nav.blog": "Blog",
 	},
 } as const
 
 export const routes = {
 	es: {
 		"what-we-offer": "nuestros-servicios",
+		"blog": "blog",
+
+		// BLOGS
+		"blog/improve-customer-experience-restaurant": "mejorar-experiencia-cliente-restaurante",
+		"improve-customer-experience-restaurant": "blog/mejorar-experiencia-cliente-restaurante",
 	},
 	en: {
 		"what-we-offer": "what-we-offer",
+		"blog": "blog",
 	},
 }

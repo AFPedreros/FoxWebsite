@@ -2,21 +2,10 @@
   "SEO_TITLE": "Fox Ordering",
   "SEO_DESCRIPTION": "Fox Ordering es un sistema de pedidos simple para restaurantes.",
   "SEO": {
-    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores - Premios ESLAND",
-    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
-    "INFO_TITLE": "Información - Premios ESLAND",
-    "INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber sobre los Premios ESLAND",
-    "INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
-    "VOTE_TITLE": "Vota por tus creadores de contenido favoritos - Premios ESLAND",
-    "VOTE_DESCRIPTION": "Vota por tus creadores de contenido favoritos de España, Latinoamérica y Andorra",
-    "LEGAL_NOTICE_TITLE": "Aviso legal - Premios ESLAND",
-    "LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con los Premios ESLAND, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
-    "PRIVACY_POLICY_TITLE": "Política de privacidad - Premios ESLAND",
-    "PRIVACY_POLICY_DESCRIPTION": "La Política de Privacidad de los Premios ESLAND describe cómo se recopilan, utilizan, protegen y comparten los datos personales de los usuarios",
-    "COOKIES_TITLE": "Política de cookies - Premios ESLAND",
-    "COOKIES_DESCRIPTION": "La Política de Cookies de los Premios ESLAND informa sobre el uso de cookies y tecnologías similares en el sitio web",
-    "ERROR_404_TITLE": "404 Página no encontrada - Premios ESLAND",
-    "ERROR_404_DESCRIPTION": "Página no encontrada (Error 404). Verifica la URL o explora nuestras secciones. ¿Necesitas ayuda? Contáctenos."
+    "WHAT_WE_OFFER_TITLE": "Nuestros Servicios",
+    "WHAT_WE_OFFER__DESCRIPTION": "Descubre los beneficios de Fox Ordering y cómo puede ayudar a tu restaurante",
+    "BLOG_TITLE": "Blog",
+    "BLOG_DESCRIPTION": "Lee las últimas noticias y actualizaciones de Fox Ordering"
   },
   "HEADER": {
     "LOGO": "Volver a la página de inicio de lo Fox Ordering"
@@ -80,5 +69,8 @@
     "HERO_TITLE": "Órdenes Directas",
     "HERO_SUBTITLE": "Tu restaurante es nuestra prioridad.",
     "HERO_TEXT": "Estamos aquí para ayudar que tu negocio crezca y <strong>maximizar ganancias.</strong> Contamos con la tasa más baja del mercado de un 5%, sin embargo, esta comisión la puede pagar el cliente final."
+  },
+  "BLOG": {
+    "HERO_TITLE": "Conoce nuestro <strong>Blog</strong>"
   }
 }

@@ -19,7 +19,7 @@ const i18n = getI18N({ currentLocale })
 					<p set:html={i18n.HERO_SUBTITLE} class="mt-8 text-pretty text-right text-lg" />
 				</div>
 				<div class="h-fit rounded-lg bg-background/75 p-6">
-					<h2 class="mb-4 max-w-sm text-balance text-center text-2xl font-normal tracking-tight">
+					<h2 class="mb-4 max-w-lg text-balance text-center text-2xl font-normal tracking-tight">
 						{i18n.OWNER_FORM.TITLE}
 					</h2>
 					<FreeDemoForm client:load locale={currentLocale || "en"} />

@@ -12,9 +12,13 @@ import XIcon from "@/components/icons/X.astro"
 import Link from "@/components/Link.astro"
 import { buttonVariants } from "@/components/ui/button"
 import { getI18N } from "@/i18n"
+import { getLangFromUrl, useTranslatedPath } from "@/i18n/utils"
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
+
+const lang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(lang)
 ---
 
 <footer class="flex flex-col">
@@ -25,7 +29,7 @@ const i18n = getI18N({ currentLocale })
 				<FooterLink href="/#">{i18n.FOOTER.COMPANY.WHY_FOX}</FooterLink>
 				<FooterLink href="/#">{i18n.FOOTER.COMPANY.ABOUT_US}</FooterLink>
 				<FooterLink href="/#">{i18n.FOOTER.COMPANY.SUCCESS_STORIES}</FooterLink>
-				<FooterLink href="/#">{i18n.FOOTER.COMPANY.BLOG}</FooterLink>
+				<FooterLink href={translatePath("/blog")}>{i18n.FOOTER.COMPANY.BLOG}</FooterLink>
 				<FooterLink href="/#">{i18n.FOOTER.COMPANY.WORK_WITH_US}</FooterLink>
 			</div>
 
@@ -65,10 +69,16 @@ const i18n = getI18N({ currentLocale })
 			<MapPinIcon class="mr-2 size-4 shrink-0 text-primary" /> 4301 Oak Circle, Boca Raton, FL 33431
 		</div>
 		<div class="flex items-center gap-6">
-			<FooterLinkIcon href="#"><InstagramIcon class="size-10 shrink-0" /></FooterLinkIcon>
-			<FooterLinkIcon href="#"><FacebookIcon class="size-10 shrink-0" /></FooterLinkIcon>
-			<FooterLinkIcon href="#"><XIcon class="size-10 shrink-0" /></FooterLinkIcon>
-			<FooterLinkIcon href="#"><LinkedinIcon class="size-10 shrink-0" /></FooterLinkIcon>
+			<FooterLinkIcon href="#" target="_blank"
+				><InstagramIcon class="size-10 shrink-0" /></FooterLinkIcon
+			>
+			<FooterLinkIcon href="#" target="_blank"
+				><FacebookIcon class="size-10 shrink-0" /></FooterLinkIcon
+			>
+			<FooterLinkIcon href="#" target="_blank"><XIcon class="size-10 shrink-0" /></FooterLinkIcon>
+			<FooterLinkIcon href="#" target="_blank">
+				<LinkedinIcon class="size-10 shrink-0" /></FooterLinkIcon
+			>
 		</div>
 	</div>
 </footer>

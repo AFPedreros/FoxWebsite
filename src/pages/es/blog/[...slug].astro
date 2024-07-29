@@ -6,9 +6,8 @@ import BlogPost from "@/layouts/BlogPost.astro"
 export async function getStaticPaths() {
 	const posts = await getCollection("blog")
 
-	const englishPosts = posts.filter((post) => post.data.lang === "en")
-
-	return englishPosts.map((post) => ({
+	const spanishPosts = posts.filter((post) => post.data.lang === "es")
+	return spanishPosts.map((post) => ({
 		params: { slug: post.slug },
 		props: post,
 	}))

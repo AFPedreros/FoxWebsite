@@ -67,7 +67,7 @@ export function FreeDemoForm({ locale }: FreeDemoFormgProps) {
 
 	return (
 		<Form {...form}>
-			<form className="grid grid-cols-4 gap-4" onSubmit={form.handleSubmit(onSubmit)}>
+			<form className="grid grid-cols-4 gap-x-4" onSubmit={form.handleSubmit(onSubmit)}>
 				<FormField
 					control={form.control}
 					name="isOwner"
@@ -171,7 +171,6 @@ export function FreeDemoForm({ locale }: FreeDemoFormgProps) {
 						</FormItem>
 					)}
 				/>
-
 				<FormField
 					control={form.control}
 					name="restaurantAddress"

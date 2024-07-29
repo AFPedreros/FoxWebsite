@@ -2,21 +2,10 @@
   "SEO_TITLE": "Fox Ordering",
   "SEO_DESCRIPTION": "Fox Ordering is a simple ordering system for restaurants.",
   "SEO": {
-    "ARCHIVO_TITLE": "Archivo de las ediciones anteriores - Premios ESLAND",
-    "ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
-    "INFO_TITLE": "Información - Premios ESLAND",
-    "INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber sobre los Premios ESLAND",
-    "INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
-    "VOTE_TITLE": "Vota por tus creadores de contenido favoritos - Premios ESLAND",
-    "VOTE_DESCRIPTION": "Vota por tus creadores de contenido favoritos de España, Latinoamérica y Andorra",
-    "LEGAL_NOTICE_TITLE": "Aviso legal - Premios ESLAND",
-    "LEGAL_NOTICE_DESCRIPTION": "El aviso legal establece las disposiciones legales y las responsabilidades relacionadas con los Premios ESLAND, abordando aspectos como términos de uso, responsabilidades legales y acuerdos entre el usuario y la entidad responsable",
-    "PRIVACY_POLICY_TITLE": "Política de privacidad - Premios ESLAND",
-    "PRIVACY_POLICY_DESCRIPTION": "La Política de Privacidad de los Premios ESLAND describe cómo se recopilan, utilizan, protegen y comparten los datos personales de los usuarios",
-    "COOKIES_TITLE": "Política de cookies - Premios ESLAND",
-    "COOKIES_DESCRIPTION": "La Política de Cookies de los Premios ESLAND informa sobre el uso de cookies y tecnologías similares en el sitio web",
-    "ERROR_404_TITLE": "404 Página no encontrada - Premios ESLAND",
-    "ERROR_404_DESCRIPTION": "Página no encontrada (Error 404). Verifica la URL o explora nuestras secciones. ¿Necesitas ayuda? Contáctenos."
+    "WHAT_WE_OFFER_TITLE": "What we Offer",
+    "WHAT_WE_OFFER__DESCRIPTION": "Discover the benefits of Fox Ordering and how it can help your restaurant",
+    "BLOG_TITLE": "Blog",
+    "BLOG_DESCRIPTION": "Read the latest news and updates from Fox Ordering"
   },
   "HEADER": {
     "LOGO": "Back to Fox Ordering home page"
@@ -80,5 +69,8 @@
     "HERO_TITLE": "Direct Ordering",
     "HERO_SUBTITLE": "Your business is our top priority",
     "HERO_TEXT": "We’re here to help your business grow and <strong>maximize profits.</strong> Our small convenience fee is 5% over the subtotal order value, however this fee can be paid by your customers."
+  },
+  "BLOG": {
+    "HERO_TITLE": "Meet our <strong>Blog</strong>"
   }
 }
