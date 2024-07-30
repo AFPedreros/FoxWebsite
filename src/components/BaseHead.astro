@@ -1,6 +1,7 @@
 ---
-import "@/styles/globals.css"
 import { ViewTransitions } from "astro:transitions"
+
+import "@/styles/globals.css"
 
 interface Props {
 	title: string
@@ -24,6 +25,10 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
+
+<!-- Heros preloads -->
+<link rel="preload" href="/banner-home.jpg" as="image" />
+<link rel="preload" href="/banner-what-we-offer.webp" as="image" />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
