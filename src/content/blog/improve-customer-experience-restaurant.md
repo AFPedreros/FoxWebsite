@@ -1,10 +1,11 @@
 ---
 title: "Tips for Improving Customer Experience in Your Restaurant"
-description: "Lorem ipsum dolor sit amet"
+description: "In the culinary world, providing an exceptional customer experience is essential for success and loyalty. A satisfied customer not only returns but also recommends your restaurant to friends and family. Here are some practical tips to improve the customer experience in your restaurant in 2024."
 lang: "en"
 pubDate: "Jul 08 2018"
-heroImage: "/blog-placeholder-3.jpg"
-author: "MONICA PINEDA"
+heroImage: "/blog-improve-customer-experience-restaurant.jpg"
+cardImage: "/card-blog-improve-customer-experience-restaurant.jpg"
+author: "Monica Pineda"
 authorImage: "/monica-author.webp"
 ---
 

@@ -24,18 +24,28 @@ const spanishPosts = posts.filter((post) => post.data.lang === "es")
 					class="text-5xl tracking-tighter text-black md:text-6xl lg:text-7xl"
 				/>
 
-				<ul class="grid grid-cols-3 gap-6">
+				<ul class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 					{
 						currentLocale === "en" &&
 							englishPosts.map((post) => (
-								<li class="flex max-w-md flex-col gap-6 rounded-sm border-border/25 text-black">
-									<a class="flex flex-col gap-4" href={`/blog/${post.slug}`}>
-										<img class="h-auto rounded-sm" src={post.data.heroImage} alt="" />
+								<li class="flex flex-col gap-4 rounded-md border-border/25 text-black">
+									<a
+										class="group relative flex flex-col gap-4 rounded-md px-3 pb-3 pt-52 transition-shadow duration-300 hover:shadow-lg"
+										href={`/blog/${post.slug}`}
+									>
+										<div class="absolute left-0 top-0 mt-2 h-48 w-full overflow-hidden rounded-t-md">
+											<div
+												class="transition-scale -z-10 h-full bg-cover bg-center bg-no-repeat duration-500 ease-in-out group-hover:scale-110"
+												style={`background-image: url('${post.data.cardImage}')`}
+											/>
+										</div>
 										<div>
 											<span class="text-xs text-border">by {post.data.author}</span>
 											<h4 class="text-xl font-bold">{post.data.title}</h4>
 										</div>
-										<p>{post.data.description}</p>
+										<p class="line-clamp-4" title={post.data.description}>
+											{post.data.description}
+										</p>
 									</a>
 								</li>
 							))
@@ -43,14 +53,24 @@ const spanishPosts = posts.filter((post) => post.data.lang === "es")
 					{
 						currentLocale === "es" &&
 							spanishPosts.map((post) => (
-								<li class="flex max-w-md flex-col gap-6 rounded-sm border-border/25 text-black">
-									<a class="flex flex-col gap-4" href={`blog/${post.slug}`}>
-										<img class="h-auto rounded-sm" src={post.data.heroImage} alt="" />
+								<li class="flex flex-col gap-4 rounded-md border-border/25 text-black">
+									<a
+										class="group relative flex flex-col gap-4 rounded-md px-3 pb-3 pt-52 transition-shadow duration-300 hover:shadow-lg"
+										href={`/es/blog/${post.slug}`}
+									>
+										<div class="absolute left-0 top-0 mt-2 h-48 w-full overflow-hidden rounded-t-md">
+											<div
+												class="transition-scale -z-10 h-full bg-cover bg-center bg-no-repeat duration-500 ease-in-out group-hover:scale-110"
+												style={`background-image: url('${post.data.cardImage}')`}
+											/>
+										</div>
 										<div>
 											<span class="text-xs text-border">by {post.data.author}</span>
 											<h4 class="text-xl font-bold">{post.data.title}</h4>
 										</div>
-										<p>{post.data.description}</p>
+										<p class="line-clamp-4" title={post.data.description}>
+											{post.data.description}
+										</p>
 									</a>
 								</li>
 							))

@@ -1,12 +1,14 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import BaseHead from "../components/BaseHead.astro"
-import Footer from "../components/Footer.astro"
-import Header from "../components/Header.astro"
+
+import BaseHead from "@/components/BaseHead.astro"
+import Footer from "@/components/Footer.astro"
+import FormattedDate from "@/components/FormattedDate.astro"
+import Header from "@/components/Header.astro"
 
 type Props = CollectionEntry<"blog">["data"]
 
-const { title, description, pubDate, updatedDate, heroImage, author, authorImage } = Astro.props
+const { title, description, pubDate, heroImage, author, authorImage } = Astro.props
 ---
 
 <html class="w-full overflow-x-hidden" lang="en">
@@ -22,21 +24,35 @@ const { title, description, pubDate, updatedDate, heroImage, author, authorImage
 
 	<body class="dark w-full overflow-x-hidden">
 		<Header />
-		<main class="w-full border-b bg-white text-black">
-			<article class="container flex gap-6 pb-20 pt-40">
-				<div class="flex w-2/3 flex-col gap-4">
-					<h1 class="text-3xl font-bold text-black md:text-5xl lg:text-6xl">
-						{title}
-					</h1>
+		<main class="relative z-10 flex flex-1 flex-col border-b bg-white pt-20 text-black">
+			<div
+				class="mx-auto w-full max-w-screen-lg rounded-b-md bg-cover md:-mb-10 lg:-mb-12 xl:-mb-16"
+			>
+				<img
+					class="h-[400px] min-h-[240px] w-full rounded-b-md object-cover object-top"
+					src={heroImage}
+					alt=""
+				/>
+			</div>
+			<article class="grid-container relative mx-auto max-w-screen-lg md:z-10">
+				<div class="mx-auto flex max-w-[calc(100%-128px)] flex-col gap-4 rounded-md bg-white p-16">
+					<header class="mx-auto w-full max-w-prose text-center">
+						<time class="text-gray-500"><FormattedDate date={pubDate} /></time>
+						<h1 class="mb-4 mt-2 text-4xl font-bold sm:mb-5 sm:mt-3">
+							{title}
+						</h1>
 
-					{
-						author && (
-							<div class="flex items-center justify-start gap-2">
-								<img class="size-10 rounded-full bg-cover bg-center" src={authorImage} alt="" />
-								<span class="text-xs text-border">by {author}</span>
-							</div>
-						)
-					}
+						{
+							author && (
+								<div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 md:gap-y-4">
+									<img class="size-10 rounded-full bg-cover bg-center" src={authorImage} alt="" />
+									<span class="text-xs text-border">by {author}</span>
+								</div>
+							)
+						}
+					</header>
+
+					<hr class="-mx-16 my-6 border-border lg:my-10" />
 
 					<div
 						class="mt-4 flex flex-col gap-y-2 [&>h2]:text-2xl [&>h2]:font-bold [&>ol]:ml-4 [&>ol]:list-decimal [&>p]:mb-4"
@@ -46,6 +62,7 @@ const { title, description, pubDate, updatedDate, heroImage, author, authorImage
 				</div>
 			</article>
 		</main>
+
 		<Footer />
 	</body>
 </html>
