@@ -17,6 +17,9 @@
   "HEADER_BUTTON": "Obtener demo gratis",
   "HERO_TITLE": "¡Desata el Éxito de tu Restaurante!",
   "HERO_SUBTITLE": "<strong>Incrementa ventas, ordenes, y maximiza ganancias.</strong> Prueba nuestro sistema de pedidos en línea personalizado y experimenta el mejor servicio de pedidos en línea directo para tu restaurante <strong>#FoxExperience.</strong>",
+  "FIRST_BENEFIT": "En incremento en ordenes en linea",
+  "SECOND_BENEFIT": "En incremento para tus llamadas en relevo",
+  "THIRD_BENEFIT": "Adicional en ahorros de comisiones",
   "OWNER_FORM": {
     "TITLE": "¿Eres el dueño o gerente del restaurante?",
     "DESCRIPTION": "Este formulario permite a los dueños o gerentes de restaurantes registrarse para una demostración gratuita de nuestros servicios.",
