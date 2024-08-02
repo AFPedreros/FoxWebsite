@@ -13,9 +13,9 @@ const { href, class: className, ...props } = Astro.props
 	href={href}
 	{...props}
 	class:list={[
+		buttonVariants({ variant: "link" }),
 		className,
 		"h-fit w-fit px-0 py-0 font-normal !text-black",
-		buttonVariants({ variant: "link" }),
 	]}
 >
 	<!-- <span
