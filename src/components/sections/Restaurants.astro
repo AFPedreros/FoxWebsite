@@ -1,0 +1,62 @@
+---
+import { Image } from "astro:assets"
+
+import genkiSushiLogo from "@/assets/restaurant-genki-sushi-logo.png"
+import laBrasaLogo from "@/assets/restaurant-la-brasa-logo.png"
+import rivasLogo from "@/assets/restaurant-rivas-logo.png"
+import souLakiLogo from "@/assets/restaurant-sou-laki-logo.png"
+import sushiSongLogo from "@/assets/restaurant-sushi-song-logo.png"
+import { getI18N } from "@/i18n"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="bg-white py-20 text-black">
+	<div class="container grid h-fit grid-cols-3 flex-wrap items-center gap-8">
+		<div class="col-span-1">
+			<h2 set:html={i18n.RESTAURANTS_TITLE} class="text-balance text-3xl" />
+		</div>
+		<div class="col-span-2 overflow-clip">
+			<div class="animate-marquee-left flex w-max gap-x-8 pl-8">
+				<Image class="size-32 object-cover object-center" src={genkiSushiLogo} alt="" />
+				<Image class="size-32 object-cover object-center" src={laBrasaLogo} alt="" />
+				<Image class="size-32 object-cover object-center" src={rivasLogo} alt="" />
+				<Image class="size-32 object-cover object-center" src={souLakiLogo} alt="" />
+				<Image class="size-32 object-cover object-center" src={sushiSongLogo} alt="" />
+
+				<Image
+					class="size-32 object-cover object-center"
+					aria-hidden="true"
+					src={genkiSushiLogo}
+					alt=""
+				/>
+				<Image
+					class="size-32 object-cover object-center"
+					aria-hidden="true"
+					src={laBrasaLogo}
+					alt=""
+				/>
+				<Image
+					class="size-32 object-cover object-center"
+					aria-hidden="true"
+					src={rivasLogo}
+					alt=""
+				/>
+				<Image
+					class="size-32 object-cover object-center"
+					aria-hidden="true"
+					src={souLakiLogo}
+					alt=""
+				/>
+				<Image
+					class="size-32 object-cover object-center"
+					aria-hidden="true"
+					src={sushiSongLogo}
+					alt=""
+				/>
+			</div>
+		</div>
+	</div>
+</section>

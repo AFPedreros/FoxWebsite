@@ -1,9 +1,10 @@
 ---
 import { Image } from "astro:assets"
+import Restaurants from "../sections/Restaurants.astro"
 
-import savingCommissions from "@/assets/28.png"
-import incresaseSales from "@/assets/36.png"
-import moreOrders from "@/assets/43.png"
+import savingCommissions from "@/assets/benefit-28.png"
+import incresaseSales from "@/assets/benefit-36.png"
+import moreOrders from "@/assets/benefit-43.png"
 import { FreeDemoForm } from "@/components/free-demo-form"
 import { getI18N } from "@/i18n"
 import RootLayout from "@/layouts/RootLayout.astro"
@@ -50,6 +51,8 @@ const i18n = getI18N({ currentLocale })
 		</section>
 
 		<section class="h-screen"></section>
+
+		<Restaurants />
 	</main>
 </RootLayout>
 
