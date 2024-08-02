@@ -20,7 +20,25 @@
   "FIRST_BENEFIT": "Get more orders with our tools",
   "SECOND_BENEFIT": "Increase your sales in Relay",
   "THIRD_BENEFIT": "Average savings in commissions",
-  "RESTAURANTS_TITLE": "Trusted by more than <br /><span class='text-5xl font-bold'>5000 restaurants!</span>",
+  "RESTAURANTS_TITLE": "Trusted by <br /><span class='text-5xl font-bold'>more than 5000 restaurants!</span>",
+  "ACCOMPLISHMENTS_TEXT": "Embark on a journey to discover the essence of Fox Ordering and its extraordinary accomplishments.",
+  "ACCOMPLISHMENTS_BUTTON": "About Us",
+  "ACCOMPLISHMENTS_INC_5000_2021": {
+    "YEAR": "2021",
+    "POSITION": "#830"
+  },
+  "ACCOMPLISHMENTS_INC_5000_2022": {
+    "YEAR": "2022",
+    "POSITION": "#218"
+  },
+  "ACCOMPLISHMENTS_INC_5000_2023": {
+    "YEAR": "2023",
+    "POSITION": "#120"
+  },
+  "ACCOMPLISHMENTS_DELOITTE_2023": {
+    "YEAR": "2023",
+    "POSITION": "#41"
+  },
   "OWNER_FORM": {
     "TITLE": "Are you the owner or manager of the restaurant?",
     "DESCRIPTION": "This form allows restaurant owners or managers to sign up for a free demo of our services.",
