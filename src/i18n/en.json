@@ -44,6 +44,40 @@
   "TESTIMONIAL_OWNER": "Atzin Guzman",
   "TESTIMONIAL_RESTAURANT": "Rivas Mexican Grill",
   "TESTIMONIAL_LOCATION": "Nevada, Utah y California",
+  "STEPS_TITLE": "Take control of<br />your <strong>digital journey!</strong>",
+  "STEP_ONE": "Step 1",
+  "STEP_ONE_IMG_ALT": "Clients find your website GIF",
+  "STEP_ONE_TITLE": "Clients find your website",
+  "STEP_ONE_LIST": {
+    "ONE": "They search Restaurants on Google.",
+    "TWO": "Your Restaurant shows up at the top and they click on it.",
+    "THREE": "They are taken to your website."
+  },
+  "STEP_TWO": "Step 2",
+  "STEP_TWO_IMG_ALT": "Clients interact with your website GIF",
+  "STEP_TWO_TITLE": "Clients interact with your website",
+  "STEP_TWO_LIST": {
+    "ONE": "They’ll be able to place orders directly.",
+    "TWO": "Engage with your menu.",
+    "THREE": "Order Pick Up or Delivery."
+  },
+  "STEP_THREE": "Step 3",
+  "STEP_THREE_IMG_ALT": "Clients Place Order GIF",
+  "STEP_THREE_TITLE": "Clients Place Order",
+  "STEP_THREE_LIST": {
+    "ONE": "They’ll browse through your menu and place their order directly.",
+    "TWO": "You will be notified when an order is placed.",
+    "THREE": "You will be able to track each order.",
+    "FOUR": "Order is picked up or delivered with our drivers."
+  },
+  "STEP_FOUR": "Step 4",
+  "STEP_FOUR_IMG_ALT": "You get Paid GIF",
+  "STEP_FOUR_TITLE": "You get Paid",
+  "STEP_FOUR_LIST": {
+    "ONE": "We make sure you get paid every single week.",
+    "TWO": "Increase orders, reduce fraud, and simplify payment processes with our direct online service.",
+    "THREE": "Schedule a free Demo and witness firsthand the success of your restaurant!"
+  },
   "OWNER_FORM": {
     "TITLE": "Are you the owner or manager of the restaurant?",
     "DESCRIPTION": "This form allows restaurant owners or managers to sign up for a free demo of our services.",

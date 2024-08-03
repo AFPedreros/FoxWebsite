@@ -1,0 +1,15 @@
+---
+import { SwipeCarousel } from "../SwipeCarousel"
+
+import { getI18N } from "@/i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="flex bg-gradient-to-b from-background to-[#043F51] py-20">
+	<div class="container flex flex-col gap-8">
+		<h2 set:html={i18n.STEPS_TITLE} class="text-pretty pb-2 text-center text-5xl" />
+		<SwipeCarousel currentLocale={currentLocale ?? "en"} client:visible />
+	</div>
+</section>

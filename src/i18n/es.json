@@ -44,6 +44,40 @@
   "TESTIMONIAL_OWNER": "Atzin Guzman",
   "TESTIMONIAL_RESTAURANT": "Rivas Mexican Grill",
   "TESTIMONIAL_LOCATION": "Nevada, Utah y California",
+  "STEPS_TITLE": "Toma el control de<br />tu <strong>camino digital</strong>",
+  "STEP_ONE": "Paso 1",
+  "STEP_ONE_IMG_ALT": "Los usuarios encuentran tu sitio web GIF",
+  "STEP_ONE_TITLE": "Los usuarios encuentran tu sitio web",
+  "STEP_ONE_LIST": {
+    "ONE": "Usuarios buscan restaurantes en Google",
+    "TWO": "Tu restaurante aparece como primera opción.",
+    "THREE": "Los usuarios hacen click en tu restaurante y van hacia tu pagina web."
+  },
+  "STEP_TWO": "Paso 2",
+  "STEP_TWO_IMG_ALT": "Los usuarios interactúan con tu sitio web GIF",
+  "STEP_TWO_TITLE": "Los usuarios interactúan con tu sitio web",
+  "STEP_TWO_LIST": {
+    "ONE": "Donde podrán ordenar directamente.",
+    "TWO": "Ver los platillos de tu menú.",
+    "THREE": "Ordenar Delivery o Pickup."
+  },
+  "STEP_THREE": "Paso 3",
+  "STEP_THREE_IMG_ALT": "Los usuarios ordenan de tu restaurante GIF",
+  "STEP_THREE_TITLE": "Los usuarios ordenan de tu restaurante",
+  "STEP_THREE_LIST": {
+    "ONE": "A traves de tu menu, los usuarios podrán ordenar directamente.",
+    "TWO": "Serás notificado cuando entre una orden.",
+    "THREE": "Podrás saber donde va tu orden hacia el cliente.",
+    "FOUR": "Las ordenes son recogidas o despachadas por medio de nuestros conductores."
+  },
+  "STEP_FOUR": "Paso 4",
+  "STEP_FOUR_IMG_ALT": "Recibes el pago GIF",
+  "STEP_FOUR_TITLE": "Recibes el pago",
+  "STEP_FOUR_LIST": {
+    "ONE": "Nos aseguramos que recibas tu dinero de las ventas semanalmente.",
+    "TWO": "Reduce el riesgo de fraude, y simplifica procesos de pago por medio de nuestro servicio de ordenes en linea directo.",
+    "THREE": "¡Obtén tu Demo gratis y eleva tu restaurante hoy!"
+  },
   "OWNER_FORM": {
     "TITLE": "¿Eres el dueño o gerente del restaurante?",
     "DESCRIPTION": "Este formulario permite a los dueños o gerentes de restaurantes registrarse para una demostración gratuita de nuestros servicios.",
