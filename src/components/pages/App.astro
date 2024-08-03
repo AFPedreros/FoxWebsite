@@ -2,6 +2,7 @@
 import { Image } from "astro:assets"
 import Accomplishments from "../sections/Accomplishments.astro"
 import Restaurants from "../sections/Restaurants.astro"
+import Testimonial from "../sections/Testimonial.astro"
 
 import savingCommissions from "@/assets/benefit-28.png"
 import incresaseSales from "@/assets/benefit-36.png"
@@ -58,6 +59,8 @@ const i18n = getI18N({ currentLocale })
 		<section class="bg-gradient-to-b from-background to-[#043F51] py-20"></section>
 
 		<Accomplishments />
+
+		<Testimonial />
 	</main>
 </RootLayout>
 

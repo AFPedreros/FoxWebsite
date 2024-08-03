@@ -32,6 +32,14 @@ const lang = getLangFromUrl(Astro.url)
 		width: 100%;
 	}
 
+	@font-face {
+		font-family: "Betterlett";
+		src: url("/fonts/betterlett.ttf");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
 	@media (prefers-reduced-motion: reduce) {
 		html {
 			scroll-behavior: auto;

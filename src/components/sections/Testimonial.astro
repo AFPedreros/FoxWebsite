@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets"
+
+import rivas from "@/assets/rivas.jpg"
+import MapPinIcon from "@/components/icons/MapPin.astro"
+import { getI18N } from "@/i18n"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="image relative h-screen bg-white">
+	<Image class="absolute left-0 top-0 h-full w-2/3 object-cover object-center" src={rivas} alt="" />
+	<div
+		class="absolute right-0 top-0 -z-0 h-full w-1/3 bg-gradient-to-b from-white from-30% to-black/30"
+	>
+	</div>
+
+	<div class="container flex h-full justify-end">
+		<div
+			class="z-40 flex h-full w-[calc((100vw/3)-2.25rem)] flex-col items-center justify-center gap-8 pl-8 text-center text-black 2xl:w-[calc((100vw/3)-6rem)]"
+		>
+			<h1 class="text-5xl text-primary">
+				{i18n.TESTIMONIAL_TITLE}
+			</h1>
+
+			<div>
+				<p set:html={i18n.TESTIMONIAL_TEXT} class="mb-2 text-pretty" />
+				<span class="font-betterlett text-3xl">{i18n.TESTIMONIAL_OWNER}</span>
+			</div>
+
+			<MapPinIcon class="mr-2 size-14 shrink-0 text-primary" />
+
+			<div>
+				<p set:html={i18n.TESTIMONIAL_RESTAURANT} class="mb-2 text-2xl font-semibold" />
+				<span class="italic">{i18n.TESTIMONIAL_LOCATION}</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.font-betterlett {
+		font-family: "Betterlett";
+		font-weight: 200;
+	}
+</style>

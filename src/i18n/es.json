@@ -39,6 +39,11 @@
     "YEAR": "2023",
     "POSITION": "#41"
   },
+  "TESTIMONIAL_TITLE": "Testimonios",
+  "TESTIMONIAL_TEXT": "&quot;Felicitamos a Fox Ordering por sus esfuerzos por ayudarnos a incrementar nuestras ventas, estamos muy satisfechos y contentos con su servicio. Gracias&quot;",
+  "TESTIMONIAL_OWNER": "Atzin Guzman",
+  "TESTIMONIAL_RESTAURANT": "Rivas Mexican Grill",
+  "TESTIMONIAL_LOCATION": "Nevada, Utah y California",
   "OWNER_FORM": {
     "TITLE": "¿Eres el dueño o gerente del restaurante?",
     "DESCRIPTION": "Este formulario permite a los dueños o gerentes de restaurantes registrarse para una demostración gratuita de nuestros servicios.",

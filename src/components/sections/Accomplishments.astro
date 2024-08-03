@@ -6,6 +6,7 @@ import deloitteLogo from "@/assets/deloitte-logo.png"
 import inc5000Logo from "@/assets/inc-5000-logo.png"
 import ChevronRightIcon from "@/components/icons/ChevronRight.astro"
 import { getI18N } from "@/i18n"
+import { cn } from "@/lib/utils"
 import "@/styles/globals.css"
 
 const { currentLocale } = Astro
@@ -16,7 +17,7 @@ const i18n = getI18N({ currentLocale })
 	<div class="container flex items-center justify-between gap-8">
 		<div class="flex h-full max-w-lg flex-col items-start justify-center gap-4">
 			<p class="text-pretty text-3xl font-bold">{i18n.ACCOMPLISHMENTS_TEXT}</p>
-			<a class:list={[buttonVariants({ variant: "link" }), "group !h-fit !w-fit !p-0"]} href="/#"
+			<a class:list={cn(buttonVariants({ variant: "link" }), "group h-fit w-fit p-0")} href="/#"
 				>{i18n.ACCOMPLISHMENTS_BUTTON}
 				<ChevronRightIcon
 					class:list="ml-1 size-5 shrink-0 transition group-hover:translate-x-1"
