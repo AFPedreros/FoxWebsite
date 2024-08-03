@@ -29,7 +29,7 @@ export function Step({ isCurrent, imageSrc, imageAlt, step, title, list }: StepP
 					{step}
 				</Badge>
 
-				<h2 className="text-3xl font-bold text-primary sm:text-5xl">{title}</h2>
+				<h2 className="text-3xl font-bold text-primary">{title}</h2>
 				<ul className="list-disc pl-6 text-xl">
 					{list.map((item) => (
 						<li key={item}>{item}</li>
