@@ -4,6 +4,7 @@ import Accomplishments from "../sections/Accomplishments.astro"
 import Restaurants from "../sections/Restaurants.astro"
 import Steps from "../sections/Steps.astro"
 import Testimonial from "../sections/Testimonial.astro"
+import WhyFox from "../sections/WhyFox.astro"
 
 import savingCommissions from "@/assets/benefit-28.png"
 import incresaseSales from "@/assets/benefit-36.png"
@@ -38,22 +39,22 @@ const i18n = getI18N({ currentLocale })
 
 		<section class="bg-white py-20 text-black">
 			<div class="container flex h-fit flex-wrap items-center justify-between gap-8">
-				<div class="relative mx-auto pb-4 pr-16">
+				<div class="relative pb-4 pr-16">
 					<Image src={moreOrders} alt="" />
 					<p class="absolute right-0 top-32 max-w-40 text-xl">{i18n.FIRST_BENEFIT}</p>
 				</div>
-				<div class="relative mx-auto pb-4 pr-16">
+				<div class="relative pb-4 pr-16">
 					<Image src={incresaseSales} alt="" />
 					<p class="absolute right-0 top-32 max-w-40 text-xl">{i18n.SECOND_BENEFIT}</p>
 				</div>
-				<div class="relative mx-auto pb-4 pr-16">
+				<div class="relative pb-4 pr-16">
 					<Image src={savingCommissions} alt="" />
 					<p class="absolute right-0 top-32 max-w-40 text-xl">{i18n.THIRD_BENEFIT}</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="py-20"></section>
+		<WhyFox />
 
 		<Restaurants />
 

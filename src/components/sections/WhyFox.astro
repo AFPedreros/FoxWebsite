@@ -1,0 +1,7 @@
+---
+import { StickyScrollReveal } from "../ui/sticky-scroll-reveal"
+
+const { currentLocale } = Astro
+---
+
+<StickyScrollReveal currentLocale={currentLocale ?? "en"} client:visible />

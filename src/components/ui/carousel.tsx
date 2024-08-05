@@ -201,7 +201,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
 				onClick={handleClick}
 				{...props}
 			>
-				<ArrowLeft className="size-6 text-background transition-colors duration-200 group-hover:text-foreground" />
+				<ArrowLeft className="size-6 text-foreground transition-colors duration-200 group-hover:text-foreground" />
 				<span className="sr-only">Previous slide</span>
 			</Button>
 		)
@@ -236,7 +236,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
 				onClick={handleClick}
 				{...props}
 			>
-				<ArrowRight className="size-6 text-background transition-colors duration-200 group-hover:text-foreground" />
+				<ArrowRight className="size-6 text-foreground transition-colors duration-200 group-hover:text-foreground" />
 				<span className="sr-only">Next slide</span>
 			</Button>
 		)
@@ -246,7 +246,7 @@ CarouselNext.displayName = "CarouselNext"
 
 const DotButton = ({ selected, onClick }: { selected: boolean; onClick: () => void }) => (
 	<button
-		className={cn("h-1 w-10 -translate-y-1/2 transform rounded-full bg-white/50", {
+		className={cn("h-1 w-16 -translate-y-1/2 transform rounded-full bg-white/50", {
 			"bg-white": selected,
 		})}
 		onClick={onClick}
