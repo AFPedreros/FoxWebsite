@@ -3,7 +3,9 @@
   "SEO_DESCRIPTION": "Fox Ordering is a simple ordering system for restaurants.",
   "SEO": {
     "WHAT_WE_OFFER_TITLE": "What we Offer",
-    "WHAT_WE_OFFER__DESCRIPTION": "Discover the benefits of Fox Ordering and how it can help your restaurant",
+    "WHAT_WE_OFFER_DESCRIPTION": "Discover the benefits of Fox Ordering and how it can help your restaurant",
+    "SUPPORT_TITLE": "Support",
+    "SUPPORT_DESCRIPTION": "Find answers to your questions and get help with Fox Ordering",
     "BLOG_TITLE": "Blog",
     "BLOG_DESCRIPTION": "Read the latest news and updates from Fox Ordering"
   },
@@ -143,7 +145,28 @@
   "WHAT_WE_OFFER": {
     "HERO_TITLE": "Direct Ordering",
     "HERO_SUBTITLE": "Your business is our top priority",
-    "HERO_TEXT": "We’re here to help your business grow and <strong>maximize profits.</strong> Our small convenience fee is 5% over the subtotal order value, however this fee can be paid by your customers."
+    "HERO_TEXT": "We’re here to help your business grow and <strong>maximize profits.</strong> Our small convenience fee is 5% over the subtotal order value, however this fee can be paid by your customers.",
+    "PERFECT_TECHMATE_TITLE": "The <strong>perfect</strong> techmate",
+    "PERFECT_TECHMATE_TEXT": "Increase orders and build customer loyalty with our easy-to-use online ordering service. Watch your <strong class='text-primary'>profits grow</strong> while your customers keep coming back for more.",
+    "PERSONALIZED_WEBSITE_TITLE": "Personalized <strong>website</strong>",
+    "PERSONALIZED_WEBSITE_SUBTITLE": "Get your exclusive restaurant website for free!",
+    "PERSONALIZED_WEBSITE_TEXT": "Let your customers easily browse your menu, enjoy exclusive discounts, and place orders directly, and safely.",
+    "CAPITAL_TITLE": "Fox Ordering opens the door to easy and hassle-free <strong class='text-primary'>restaurant funding.</strong>",
+    "CAPITAL_TEXT": "Let your customers easily browse your menu, enjoy exclusive discounts, and place orders directly, and safely.",
+    "FTR_TITLE": "Our app:",
+    "FTR_TEXT": "Find in one place, the restaurants affiliated with our service. Here, customers can order directly from our clients.",
+    "FTR_LIST_ITEM_1": "<strong class='text-primary'>Personalized experience:</strong> Simple payments, finding locations, or checking an order status has never been easier.",
+    "FTR_LIST_ITEM_2": "<strong class='text-primary'>Online presence:</strong> Improve the positioning of your restaurant online and reach a growing audience.",
+    "FTR_LIST_ITEM_3": "<strong class='text-primary'>Customer Engagement:</strong> The power of an app will enhance customer loyalty. Offer this benefit to your customers, whether they use iOS or Android.",
+    "FTR_LIST_ITEM_4": "<strong class='text-primary'>Digital Transformation:</strong> Develop and evolve your business. The use of technology in your restaurant will always differentiate your service.",
+    "BRANDED_APP_TITLE": "Branded<br><strong>Mobile App:</strong>",
+    "BRANDED_APP_SUBTITLE": "Our team will <strong class='text-black'>build, optimize, and maintain</strong> your branded app, ensuring a seamless experience for both you and your customers.",
+    "BRANDED_APP_TEXT": "Let your customers easily browse your menu, enjoy exclusive discounts, and place orders directly, and safely.",
+    "FOX_PUSH_TITLE": "Elevate customer loyalty with our automated <strong class='text-primary'>Email and SMS</strong> marketing solutions.",
+    "FOX_PUSH_TEXT": "Encourage repeat orders, drive sales, and ensure your guests keep returning for more!",
+    "CALL_RELAY_TITLE": "Call <strong>Relay</strong>",
+    "CALL_RELAY_SUBTITLE": "Effortlessly manage phone orders and customer inquiries with our call relay service.",
+    "CALL_RELAY_TEXT": "With SMS integration, we share your menu and guide them through the easy online ordering process on your website."
   },
   "BLOG": {
     "HERO_TITLE": "Meet our <strong>Blog</strong>"

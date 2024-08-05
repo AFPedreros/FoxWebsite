@@ -3,7 +3,9 @@
   "SEO_DESCRIPTION": "Fox Ordering es un sistema de pedidos simple para restaurantes.",
   "SEO": {
     "WHAT_WE_OFFER_TITLE": "Nuestros Servicios",
-    "WHAT_WE_OFFER__DESCRIPTION": "Descubre los beneficios de Fox Ordering y cómo puede ayudar a tu restaurante",
+    "WHAT_WE_OFFER_DESCRIPTION": "Descubre los beneficios de Fox Ordering y cómo puede ayudar a tu restaurante",
+    "SUPPORT_TITLE": "Soporte",
+    "SUPPORT_DESCRIPTION": "¿Necesitas ayuda? Encuentra respuestas a tus preguntas aquí",
     "BLOG_TITLE": "Blog",
     "BLOG_DESCRIPTION": "Lee las últimas noticias y actualizaciones de Fox Ordering"
   },
@@ -143,7 +145,28 @@
   "WHAT_WE_OFFER": {
     "HERO_TITLE": "Órdenes Directas",
     "HERO_SUBTITLE": "Tu restaurante es nuestra prioridad.",
-    "HERO_TEXT": "Estamos aquí para ayudar que tu negocio crezca y <strong>maximizar ganancias.</strong> Contamos con la tasa más baja del mercado de un 5%, sin embargo, esta comisión la puede pagar el cliente final."
+    "HERO_TEXT": "Estamos aquí para ayudar que tu negocio crezca y <strong>maximizar ganancias.</strong> Contamos con la tasa más baja del mercado de un 5%, sin embargo, esta comisión la puede pagar el cliente final.",
+    "PERFECT_TECHMATE_TITLE": "Tu <strong>aliado</strong> tecnológico",
+    "PERFECT_TECHMATE_TEXT": "Fideliza a tus clientes con nuestro servicio de pedidos en línea fácil de usar. Ve cómo <strong class='text-primary'>crecen tus ganancias</strong> mientras tus clientes siguen regresando por más.",
+    "PERSONALIZED_WEBSITE_TITLE": "<strong>Página Web</strong> Personalizada",
+    "PERSONALIZED_WEBSITE_SUBTITLE": "Obtén tu página web exclusiva para tu restaurante ¡gratis!",
+    "PERSONALIZED_WEBSITE_TEXT": "Permite que tus clientes naveguen fácilmente por tu menú, disfruten de descuentos exclusivos y hagan pedidos directamente y de forma segura.",
+    "CAPITAL_TITLE": "Fox Ordering abre la puerta a una <strong class='text-primary'>financiación de restaurantes</strong> fácil y sin complicaciones.",
+    "CAPITAL_TEXT": "Permite que tus clientes naveguen fácilmente por tu menú, disfruten de descuentos exclusivos y hagan pedidos directamente y de forma segura.",
+    "FTR_TITLE": "Nuestra App:",
+    "FTR_TEXT": "Todo en un solo lugar: Encuentra los restaurantes afiliados a nuestro servicio. Aquí los clientes pueden pedir directamente a nuestros socios.",
+    "FTR_LIST_ITEM_1": "<strong class='text-primary'>Experiencia personalizada:</strong> Realizar pagos simples, encontrar ubicaciones o verificar el estado de un pedido nunca ha sido tan fácil.",
+    "FTR_LIST_ITEM_2": "<strong class='text-primary'>Presencia en línea:</strong> Mejora el posicionamiento de tu restaurante en internet y alcanza a una audiencia en crecimiento.",
+    "FTR_LIST_ITEM_3": "<strong class='text-primary'>Interacción con la App:</strong> El poder de una app aumentará la lealtad de los clientes. Ofrece este beneficio a tus clientes, ya sea que usen iOS o Android.",
+    "FTR_LIST_ITEM_4": "<strong class='text-primary'>Transformación digital:</strong> Desarrolla y evoluciona tu negocio. El uso de tecnología en tu restaurante siempre diferenciará tu servicio.",
+    "BRANDED_APP_TITLE": "<strong>App Móvil</strong><br>Personalizada:",
+    "BRANDED_APP_SUBTITLE": "Nuestro equipo <strong class='text-black'>creará, optimizará y mantendrá</strong> tu app personalizada, garantizando una experiencia fluida tanto para ti como para tus clientes.",
+    "BRANDED_APP_TEXT": "Permite que tus clientes naveguen fácilmente por tu menú, disfruten de descuentos exclusivos y hagan pedidos directamente y de forma segura.",
+    "FOX_PUSH_TITLE": "Fideliza tus clientes con nuestras soluciones automatizadas de marketing de <strong class='text-primary'>Email y WhatsApp.</strong>",
+    "FOX_PUSH_TEXT": "Incentiva pedidos recurrentes, impulsa las ventas y asegura que tus clientes sigan regresando por más.",
+    "CALL_RELAY_TITLE": "Call <strong>Relay</strong>",
+    "CALL_RELAY_SUBTITLE": "Gestiona sin esfuerzo los pedidos telefónicos y las consultas de los clientes con nuestro servicio de reenvío de llamadas.",
+    "CALL_RELAY_TEXT": "Con la integración de SMS, compartimos tu menú y los guiamos a través del sencillo proceso de pedidos en línea en tu sitio web."
   },
   "BLOG": {
     "HERO_TITLE": "Conoce nuestro <strong>Blog</strong>"

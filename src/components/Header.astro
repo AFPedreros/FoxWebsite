@@ -26,14 +26,11 @@ const translatePath = useTranslatedPath(lang)
 		<div class="flex items-center gap-4">
 			<HeaderLink href={translatePath("/what-we-offer")}>{i18n.HEADER_WHAT_WE_OFFER}</HeaderLink>
 			<HeaderLink href="#">{i18n.HEADER_ABOUT_US}</HeaderLink>
-			<HeaderLink href="#">{i18n.HEADER_SUPPORT}</HeaderLink>
+			<HeaderLink href={translatePath("/support")}>{i18n.HEADER_SUPPORT}</HeaderLink>
 			<HeaderLink href="#">{i18n.HEADER_ORDER_ONLINE}</HeaderLink>
 		</div>
 		<div class="flex items-center gap-4">
 			<LanguageSelector />
-			<!-- <Link class="flex items-center" href="tel:8668836967" target="_blank"
-				><Phone class="mr-2 size-4 shrink-0" /> 866-883-6967
-			</Link> -->
 			<FreeDemoDialog client:load locale={currentLocale || "en"} />
 		</div>
 	</nav>

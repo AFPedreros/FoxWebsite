@@ -20,12 +20,14 @@ export const showDefaultLang = false
 export const ui = {
 	es: {
 		"nav.inicio": "Inicio",
-		"nav.what-we-offer": "What we offer",
+		"nav.nuestros-servicios": "Nuestros Servicios",
+		"nav.soporte": "Soporte",
 		"nav.blog": "Blog",
 	},
 	en: {
 		"nav.inicio": "Home",
-		"nav.what-we-offer": "Nuestros servicios",
+		"nav.what-we-offer": "What we offer",
+		"nav.support": "Support",
 		"nav.blog": "Blog",
 	},
 } as const
@@ -33,6 +35,7 @@ export const ui = {
 export const routes = {
 	es: {
 		"what-we-offer": "nuestros-servicios",
+		"support": "soporte",
 		"blog": "blog",
 
 		// BLOGS
@@ -41,6 +44,7 @@ export const routes = {
 	},
 	en: {
 		"what-we-offer": "what-we-offer",
+		"support": "support",
 		"blog": "blog",
 	},
 }

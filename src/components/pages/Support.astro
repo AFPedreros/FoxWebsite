@@ -1,0 +1,17 @@
+---
+import Help from "../sections/support/Help.astro"
+import Hero from "../sections/support/Hero.astro"
+
+import { getI18N } from "@/i18n"
+import RootLayout from "@/layouts/RootLayout.astro"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<RootLayout title={i18n.SEO.SUPPORT_TITLE} description={i18n.SEO.SUPPORT_DESCRIPTION}>
+	<main class="pt-20">
+		<Hero />
+		<Help />
+	</main>
+</RootLayout>

@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets"
+
+import foxPushLogo from "@/assets/what-we-offer/fox-push-logo.png"
+import foxPush from "@/assets/what-we-offer/fox-push.jpg"
+import { getI18N } from "@/i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="hero relative flex h-fit w-full py-20">
+	<Image
+		class="absolute left-0 top-0 h-full w-full object-cover object-center"
+		src={foxPush}
+		alt=""
+	/>
+
+	<div class="container z-10 flex h-full items-center justify-end text-right text-black">
+		<div class="flex max-w-sm flex-col items-end">
+			<Image class="h-20 w-auto object-cover object-center" src={foxPushLogo} alt="" />
+			<h2
+				set:html={i18n.WHAT_WE_OFFER.FOX_PUSH_TITLE}
+				class="mt-8 text-balance text-3xl font-light"
+			/>
+			<div class="mt-8 flex gap-4">
+				<p class="text-pretty">
+					{i18n.WHAT_WE_OFFER.FOX_PUSH_TEXT}
+				</p>
+				<div class="mr-8 mt-2 size-10 shrink-0 border-b-2 border-r-2 border-black"></div>
+			</div>
+		</div>
+	</div>
+</section>
