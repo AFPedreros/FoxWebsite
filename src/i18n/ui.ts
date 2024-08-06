@@ -19,13 +19,13 @@ export const showDefaultLang = false
 
 export const ui = {
 	es: {
-		"nav.inicio": "Inicio",
-		"nav.nuestros-servicios": "Nuestros Servicios",
-		"nav.soporte": "Soporte",
+		"nav.home": "Inicio",
+		"nav.what-we-offer": "Nuestros Servicios",
+		"nav.support": "Soporte",
 		"nav.blog": "Blog",
 	},
 	en: {
-		"nav.inicio": "Home",
+		"nav.home": "Home",
 		"nav.what-we-offer": "What we offer",
 		"nav.support": "Support",
 		"nav.blog": "Blog",
