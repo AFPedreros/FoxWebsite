@@ -22,12 +22,14 @@ export const ui = {
 		"nav.home": "Inicio",
 		"nav.what-we-offer": "Nuestros Servicios",
 		"nav.support": "Soporte",
+		"nav.order-online": "Ordena en línea",
 		"nav.blog": "Blog",
 	},
 	en: {
 		"nav.home": "Home",
 		"nav.what-we-offer": "What we offer",
 		"nav.support": "Support",
+		"nav.order-online": "Order Online",
 		"nav.blog": "Blog",
 	},
 } as const
@@ -36,6 +38,7 @@ export const routes = {
 	es: {
 		"what-we-offer": "nuestros-servicios",
 		"support": "soporte",
+		"order-online": "ordena-en-linea",
 		"blog": "blog",
 
 		// BLOGS

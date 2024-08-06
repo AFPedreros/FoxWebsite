@@ -1,0 +1,72 @@
+---
+import { Image } from "astro:assets"
+
+import appStoreLogo from "@/assets/order-online/logo-appstore.png"
+import googlePlayLogo from "@/assets/order-online/logo-googleplay.png"
+
+import Bell from "@/components/icons/Bell.astro"
+import ChevronRightIcon from "@/components/icons/ChevronRight.astro"
+import MapPin from "@/components/icons/MapPin.astro"
+import Smartphone from "@/components/icons/Smartphone.astro"
+import UtensilsCrossed from "@/components/icons/UtensilsCrossed.astro"
+import { getI18N } from "@/i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section
+	class="hero relative flex h-[calc(100vh-5rem)] w-full flex-col items-center justify-center gap-8 py-20 text-center"
+>
+	<h1 class="text-pretty text-5xl">{i18n.ORDER_ONLINE.HERO_TITLE}</h1>
+	<h2 class="text-balance text-3xl font-bold">{i18n.ORDER_ONLINE.HERO_SUBTITLE}</h2>
+	<div class="flex items-center justify-center gap-2 rounded-md p-4 backdrop-blur-md">
+		<div class="flex flex-col items-center justify-center gap-1">
+			<Smartphone class:list="size-8 shrink-0 " />
+			<span class="font-bold">{i18n.ORDER_ONLINE.STEP_1}</span>
+		</div>
+
+		<ChevronRightIcon class:list=" size-8 shrink-0 " />
+		<div class="flex flex-col items-center justify-center gap-1">
+			<MapPin class:list="size-8 shrink-0 " />
+			<span class="font-bold">{i18n.ORDER_ONLINE.STEP_2}</span>
+		</div>
+
+		<ChevronRightIcon class:list=" size-8 shrink-0 " />
+		<div class="flex flex-col items-center justify-center gap-1">
+			<UtensilsCrossed class:list="size-8 shrink-0 " />
+			<span class="font-bold">{i18n.ORDER_ONLINE.STEP_3}</span>
+		</div>
+
+		<ChevronRightIcon class:list=" size-8 shrink-0 " />
+		<div class="flex flex-col items-center justify-center gap-1">
+			<Bell class:list="size-8 shrink-0 " />
+			<span class="font-bold">{i18n.ORDER_ONLINE.STEP_4}</span>
+		</div>
+	</div>
+
+	<div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
+		<div class="flex items-center gap-8">
+			<Image
+				class="h-16 w-auto object-cover object-center"
+				src={appStoreLogo}
+				loading="eager"
+				alt=""
+			/>
+			<Image
+				class="h-16 w-auto object-cover object-center"
+				src={googlePlayLogo}
+				loading="eager"
+				alt=""
+			/>
+		</div>
+	</div>
+</section>
+
+<style>
+	.hero {
+		background-image: url("/banner-order-online.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+</style>

@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets"
+
+import amexLogo from "@/assets/order-online/logo-amex.png"
+import applepayLogo from "@/assets/order-online/logo-apple-pay.png"
+import discoverLogo from "@/assets/order-online/logo-discover.png"
+import googlePayLogo from "@/assets/order-online/logo-google-pay.png"
+import mastercardLogo from "@/assets/order-online/logo-mastercard.png"
+import visaLogo from "@/assets/order-online/logo-visa.png"
+
+import { getI18N } from "@/i18n"
+import { chunkArray } from "@/lib/utils"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+
+const groupedStatesUSA = chunkArray(i18n.ORDER_ONLINE.STATES_UNITED_STATES, 10)
+const groupedStatesCanada = chunkArray(i18n.ORDER_ONLINE.STATES_CANADA, 10)
+---
+
+<section class="bg-gradient-to-b from-[#F3EFEF] from-50% to-[#F6D8D7] py-20 text-black">
+	<div class="container flex flex-col gap-8">
+		<div class="flex flex-wrap items-center gap-4">
+			<h3 class="text-pretty text-xl">{i18n.ORDER_ONLINE.PAYMENT_METHODS_TITLE}</h3>
+			<Image class="h-12 w-fit object-cover object-center" src={applepayLogo} alt="" />
+			<Image class="h-12 w-fit object-cover object-center" src={googlePayLogo} alt="" />
+			<Image class="h-12 w-fit object-cover object-center" src={visaLogo} alt="" />
+			<Image class="h-12 w-fit object-cover object-center" src={mastercardLogo} alt="" />
+			<Image class="h-12 w-fit object-cover object-center" src={discoverLogo} alt="" />
+			<Image class="h-12 w-fit object-cover object-center" src={amexLogo} alt="" />
+		</div>
+
+		<h2 class="text-pretty text-5xl font-light">{i18n.ORDER_ONLINE.REGIONS_TITLE}</h2>
+
+		<div class="justify-beteen flex w-full flex-wrap gap-20">
+			<div class="flex flex-col gap-4">
+				<h3 class="text-balance text-3xl font-bold">{i18n.ORDER_ONLINE.REGIONS_COUNTRY_1}</h3>
+				<div class="flex justify-between gap-8">
+					{
+						groupedStatesUSA.map((group) => (
+							<div class="flex flex-col gap-2 text-black/80">
+								{group.map((state) => (
+									<span>{state}</span>
+								))}
+							</div>
+						))
+					}
+				</div>
+			</div>
+
+			<div class="flex flex-col gap-4">
+				<h3 class="text-balance text-3xl font-bold">{i18n.ORDER_ONLINE.REGIONS_COUNTRY_2}</h3>
+				<div class="flex justify-between gap-8">
+					{
+						groupedStatesCanada.map((group) => (
+							<div class="flex flex-col gap-2 text-black/80">
+								{group.map((state) => (
+									<span>{state}</span>
+								))}
+							</div>
+						))
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
