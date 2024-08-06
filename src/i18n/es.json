@@ -168,7 +168,50 @@
     "CALL_RELAY_SUBTITLE": "Gestiona sin esfuerzo los pedidos telefónicos y las consultas de los clientes con nuestro servicio de reenvío de llamadas.",
     "CALL_RELAY_TEXT": "Con la integración de SMS, compartimos tu menú y los guiamos a través del sencillo proceso de pedidos en línea en tu sitio web."
   },
+  "SUPPORT": {
+    "HERO_TITLE": "<strong>Si necesitas ayuda,</strong><br>explora una de estas opciones:",
+    "HERO_SUBTITLE_1": "Soporte de Pedidos",
+    "HERO_SUBTITLE_2": "Soporte de Restaurantes",
+    "HERO_BUTTON": "Continuar",
+    "ORDER_FORM": {
+      "TITLE": "Envíanos un mensaje",
+      "DESCRIPTION": "Este formulario permite a los usuarios enviar un mensaje a nuestro equipo de soporte.",
+      "LABEL_NAME": "Nombre",
+      "LABEL_LAST_NAME": "Apellido",
+      "LABEL_RESTAURANT_NAME": "Nombre del Restaurante",
+      "LABEL_RESTAURANT_ADDRESS": "Dirección del Restaurante",
+      "LABEL_EMAIL": "Correo Electrónico",
+      "LABEL_PHONE": "Teléfono",
+      "LABEL_MESSAGE": "Mensaje",
+      "PLACEHOLDER_NAME": "Juan",
+      "PLACEHOLDER_LAST_NAME": "Pérez",
+      "PLACEHOLDER_RESTAURANT_NAME": "Nombre del Restaurante",
+      "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Calle Principal, Ciudad, Estado, Código Postal",
+      "PLACEHOLDER_EMAIL": "juanperez@ejemplo.com",
+      "PLACEHOLDER_PHONE": "123-456-7890",
+      "PLACEHOLDER_MESSAGE": "Escribe tu mensaje aquí",
+      "BUTTON": "Enviar"
+    },
+    "RESTAURANT_FORM": {
+      "TITLE": "Envíanos un mensaje",
+      "DESCRIPTION": "Este formulario permite a los restaurantes enviar un mensaje a nuestro equipo de soporte.",
+      "LABEL_RESTAURANT_NAME": "Nombre del Restaurante",
+      "LABEL_RESTAURANT_ADDRESS": "Dirección del Restaurante",
+      "LABEL_EMAIL": "Correo Electrónico",
+      "LABEL_PHONE": "Teléfono",
+      "LABEL_MESSAGE": "Mensaje",
+      "PLACEHOLDER_RESTAURANT_NAME": "Nombre del Restaurante",
+      "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Calle Principal, Ciudad, Estado, Código Postal",
+      "PLACEHOLDER_EMAIL": "juanperez@ejemplo.com",
+      "PLACEHOLDER_PHONE": "123-456-7890",
+      "PLACEHOLDER_MESSAGE": "Escribe tu mensaje aquí",
+      "BUTTON": "Enviar"
+    }
+  },
   "BLOG": {
     "HERO_TITLE": "Conoce nuestro <strong>Blog</strong>"
-  }
+  },
+  "TEXT_ERROR_FIELD_REQUIRED": "Completa este campo",
+  "TEXT_ERROR_FIELD_EMAIL": "Ingresa un correo electrónico válido",
+  "TEXT_ERROR_FIELD_PHONE": "Ingresa un número de teléfono válido"
 }

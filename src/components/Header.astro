@@ -2,9 +2,9 @@
 import { Image } from "astro:assets"
 
 import foxLogo from "@/assets/logo-fox-ordering.png"
+import { FreeDemoDialog } from "@/components/FreeDemoDialog"
 import HeaderLink from "@/components/HeaderLink.astro"
 import LanguageSelector from "@/components/LanguageSelector.astro"
-import { FreeDemoDialog } from "@/components/free-demo-dialog"
 import { getI18N } from "@/i18n"
 import { getLangFromUrl, useTranslatedPath } from "@/i18n/utils"
 
@@ -31,7 +31,7 @@ const translatePath = useTranslatedPath(lang)
 		</div>
 		<div class="flex items-center gap-4">
 			<LanguageSelector />
-			<FreeDemoDialog client:load locale={currentLocale || "en"} />
+			<FreeDemoDialog client:load locale={currentLocale ?? "en"} />
 		</div>
 	</nav>
 	<style>

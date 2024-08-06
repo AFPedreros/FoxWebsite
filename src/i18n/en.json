@@ -168,7 +168,50 @@
     "CALL_RELAY_SUBTITLE": "Effortlessly manage phone orders and customer inquiries with our call relay service.",
     "CALL_RELAY_TEXT": "With SMS integration, we share your menu and guide them through the easy online ordering process on your website."
   },
+  "SUPPORT": {
+    "HERO_TITLE": "<strong>If you need help,</strong><br>explore one of these options",
+    "HERO_SUBTITLE_1": "Order Support",
+    "HERO_SUBTITLE_2": "Restaurant Support",
+    "HERO_BUTTON": "Continue",
+    "ORDER_FORM": {
+      "TITLE": "Submit a request",
+      "DESCRIPTION": "This form allows customers to request support for an order they placed.",
+      "LABEL_NAME": "Name",
+      "LABEL_LAST_NAME": "Last Name",
+      "LABEL_RESTAURANT_NAME": "Restaurant Name",
+      "LABEL_RESTAURANT_ADDRESS": "Restaurant Address",
+      "LABEL_EMAIL": "Email",
+      "LABEL_PHONE": "Phone",
+      "LABEL_MESSAGE": "Message",
+      "PLACEHOLDER_NAME": "John",
+      "PLACEHOLDER_LAST_NAME": "Doe",
+      "PLACEHOLDER_RESTAURANT_NAME": "Restaurant Name",
+      "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Main St, City, State, Zip",
+      "PLACEHOLDER_EMAIL": "johndoe@example.com",
+      "PLACEHOLDER_PHONE": "123-456-7890",
+      "PLACEHOLDER_MESSAGE": "Write your message here",
+      "BUTTON": "Send"
+    },
+    "RESTAURANT_FORM": {
+      "TITLE": "Submit a request",
+      "DESCRIPTION": "This form allows restaurants to request support for an order they placed.",
+      "LABEL_RESTAURANT_NAME": "Restaurant Name",
+      "LABEL_RESTAURANT_ADDRESS": "Restaurant Address",
+      "LABEL_EMAIL": "Email",
+      "LABEL_PHONE": "Phone",
+      "LABEL_MESSAGE": "Message",
+      "PLACEHOLDER_RESTAURANT_NAME": "Restaurant Name",
+      "PLACEHOLDER_RESTAURANT_ADDRESS": "123 Main St, City, State, Zip",
+      "PLACEHOLDER_EMAIL": "johndoe@example.com",
+      "PLACEHOLDER_PHONE": "123-456-7890",
+      "PLACEHOLDER_MESSAGE": "Write your message here",
+      "BUTTON": "Send"
+    }
+  },
   "BLOG": {
     "HERO_TITLE": "Meet our <strong>Blog</strong>"
-  }
+  },
+  "TEXT_ERROR_FIELD_REQUIRED": "Complete this field",
+  "TEXT_ERROR_FIELD_EMAIL": "Enter a valid email",
+  "TEXT_ERROR_FIELD_PHONE": "Enter a valid phone number"
 }

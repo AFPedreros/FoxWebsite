@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets"
+
+import costummerSupport from "@/assets/support/custommer-support.png"
+import restaurantSupport from "@/assets/support/restaurant-support.png"
+import { OrderSupportDialog } from "@/components/OrderSupportDialog"
+import { RestaurantSupportDialog } from "@/components/RestaurantSupportDialog"
+import { Separator } from "@/components/ui/separator"
+import { getI18N } from "@/i18n"
+import "@/styles/globals.css"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="bg-gradient-to-b from-[#F3EFEF] from-50% to-[#F6D8D7] py-20 text-black">
+	<div class="container flex flex-col items-center justify-between gap-8 text-center">
+		<h2 set:html={i18n.SUPPORT.HERO_TITLE} class="text-pretty text-5xl" />
+
+		<div class="flex h-[360px] w-full justify-evenly gap-8">
+			<div class="flex flex-col items-center justify-between gap-4">
+				<Image class="size-56 object-cover object-center" src={costummerSupport} alt="" />
+				<h3 class="text-balance text-3xl font-bold">{i18n.SUPPORT.HERO_SUBTITLE_1}</h3>
+				<OrderSupportDialog client:load locale={currentLocale ?? "en"} />
+			</div>
+
+			<Separator orientation="vertical" />
+
+			<div class="flex flex-col items-center justify-between gap-4">
+				<Image class="size-56 object-cover object-center" src={restaurantSupport} alt="" />
+				<h3 class="text-balance text-3xl font-bold">{i18n.SUPPORT.HERO_SUBTITLE_2}</h3>
+				<RestaurantSupportDialog client:load locale={currentLocale ?? "en"} />
+			</div>
+		</div>
+	</div>
+</section>

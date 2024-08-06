@@ -23,27 +23,26 @@ import { getI18N } from "@/i18n"
 
 const phoneValidation = /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
 
-const formSchema = z.object({
-	isOwner: z.string().min(1, { message: "Complete this field" }),
-	name: z.string().min(1, { message: "Complete this field" }),
-	lastName: z.string().min(1, { message: "Complete this field" }),
-	email: z.string().min(1, { message: "Complete this field" }).email({
-		message: "Must be a valid email",
-	}),
-	phone: z
-		.string()
-		.min(1, { message: "Complete this field" })
-		.regex(phoneValidation, { message: "invalid phone" }),
-	restaurantName: z.string().min(1, { message: "Complete this field" }),
-	restaurantAddress: z.string().min(1, { message: "Complete this field" }),
-})
-
-interface FreeDemoFormgProps {
+interface FreeDemoFormProps {
 	locale: string
 }
 
-export function FreeDemoForm({ locale }: FreeDemoFormgProps) {
+export function FreeDemoForm({ locale }: FreeDemoFormProps) {
 	const i18n = getI18N({ currentLocale: locale })
+	const formSchema = z.object({
+		isOwner: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }),
+		name: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }),
+		lastName: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }),
+		email: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }).email({
+			message: i18n.TEXT_ERROR_FIELD_EMAIL,
+		}),
+		phone: z
+			.string()
+			.min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED })
+			.regex(phoneValidation, { message: i18n.TEXT_ERROR_FIELD_PHONE }),
+		restaurantName: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }),
+		restaurantAddress: z.string().min(1, { message: i18n.TEXT_ERROR_FIELD_REQUIRED }),
+	})
 
 	const form = useForm<z.infer<typeof formSchema>>({
 		resolver: zodResolver(formSchema),
