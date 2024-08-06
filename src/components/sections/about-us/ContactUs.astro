@@ -1,0 +1,41 @@
+---
+import { Image } from "astro:assets"
+
+import map from "@/assets/about-us/contact-us.jpg"
+import Mail from "@/components/icons/Mail.astro"
+import MapPin from "@/components/icons/MapPin.astro"
+import Phone from "@/components/icons/Phone.astro"
+import { getI18N } from "@/i18n"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<section class="hero relative flex h-screen w-full py-20">
+	<Image class="absolute left-0 top-0 h-full w-full object-cover object-left" src={map} alt="" />
+
+	<div class="container z-10 flex h-full items-end justify-end">
+		<div
+			class="w-fit rounded-md border-b-8 border-primary bg-white/50 p-4 text-black backdrop-blur-md"
+		>
+			<h2 class="text-balance text-3xl font-bold">
+				{i18n.ABOUT_US.CONTACT_US_TITLE}
+			</h2>
+
+			<ul class="mt-8">
+				<li class="mt-2 flex items-center text-pretty">
+					<Phone class="mr-2 mt-0.5 size-4 shrink-0 text-primary" />
+					{i18n.ABOUT_US.CONTACT_US_PHONE}
+				</li>
+				<li class="mt-2 flex items-center text-pretty">
+					<MapPin class="mr-2 mt-0.5 size-4 shrink-0 text-primary" />{
+						i18n.ABOUT_US.CONTACT_US_ADDRESS
+					}
+				</li>
+				<li class="mt-2 flex items-center text-pretty">
+					<Mail class="mr-2 mt-0.5 size-4 shrink-0 text-primary" />{i18n.ABOUT_US.CONTACT_US_EMAIL}
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

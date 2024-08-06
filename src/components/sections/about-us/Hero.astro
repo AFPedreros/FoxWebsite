@@ -6,20 +6,20 @@ const i18n = getI18N({ currentLocale })
 ---
 
 <section class="hero flex h-screen w-full pb-20 pt-40">
-	<div class="container flex h-full items-center justify-start text-black">
+	<div class="container flex h-full items-center justify-start text-white">
 		<div class="max-w-md">
 			<h1 class="mx-auto text-5xl font-light tracking-tighter text-primary md:text-6xl lg:text-7xl">
-				{i18n.WHAT_WE_OFFER.HERO_TITLE}
+				{i18n.ABOUT_US.HERO_TITLE}
 			</h1>
-			<h2 class="mt-8 text-pretty text-lg">{i18n.WHAT_WE_OFFER.HERO_SUBTITLE}</h2>
-			<p set:html={i18n.WHAT_WE_OFFER.HERO_TEXT} class="mt-8 text-pretty" />
+			<p class="mt-8 text-pretty">{i18n.ABOUT_US.HERO_TEXT}</p>
+			<h2 class="mt-4 text-pretty text-lg font-semibold">{i18n.ABOUT_US.HERO_SUBTITLE}</h2>
 		</div>
 	</div>
 </section>
 
 <style>
 	.hero {
-		background-image: url("/banner-what-we-offer.webp");
+		background-image: url("/banner-about-us.jpg");
 		background-size: cover;
 		background-position: center;
 	}

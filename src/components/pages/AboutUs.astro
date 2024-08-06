@@ -1,0 +1,21 @@
+---
+import ContactUs from "../sections/about-us/ContactUs.astro"
+import Hero from "../sections/about-us/Hero.astro"
+import JoinOurTeam from "../sections/about-us/JoinOurTeam.astro"
+import TeamParallax from "../sections/about-us/TeamParallax.astro"
+
+import { getI18N } from "@/i18n"
+import RootLayout from "@/layouts/RootLayout.astro"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<RootLayout title={i18n.SEO.WHAT_WE_OFFER_TITLE} description={i18n.SEO.WHAT_WE_OFFER_DESCRIPTION}>
+	<main>
+		<Hero />
+		<TeamParallax />
+		<JoinOurTeam />
+		<ContactUs />
+	</main>
+</RootLayout>

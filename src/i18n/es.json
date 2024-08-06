@@ -170,6 +170,25 @@
     "CALL_RELAY_SUBTITLE": "Gestiona sin esfuerzo los pedidos telefónicos y las consultas de los clientes con nuestro servicio de reenvío de llamadas.",
     "CALL_RELAY_TEXT": "Con la integración de SMS, compartimos tu menú y los guiamos a través del sencillo proceso de pedidos en línea en tu sitio web."
   },
+  "ABOUT_US": {
+    "HERO_TITLE": "About Us",
+    "HERO_SUBTITLE": "¡Jugamos para ganar!",
+    "HERO_TEXT": "Somos apasionados por las buenas ideas, el vivir con propósito y el impacto en equipo. Tu negocio está en manos expertas; elegir el mejor servicio directo de pedidos en línea puede cambiar el juego y lo celebrarás. ¿Listo para jugar y ganar a lo grande con nosotros? ¡Hagamos del éxito la forma Fox Pack!",
+    "TEAM_TITLE_1": "Somos Fox Ordering",
+    "TEAM_TITLE_2": "Lo que nos diferencia",
+    "TEAM_TEXT_1": "Fundada en 2014, Fox Ordering es una empresa de tecnología con la misión de transformar la experiencia de pedidos en línea para restaurantes y sus clientes. Creemos que cada restaurante, sin importar su tamaño, merece tener acceso a soluciones de pedidos en línea accesibles y efectivas.",
+    "TEAM_TEXT_2": "Nos impulsa el deseo de empoderar a los restaurantes con las herramientas necesarias para triunfar en la era digital. Entendemos que el pedir en línea no se trata solo de recibir pedidos; se trata de construir relaciones, aumentar la fidelidad del cliente e impulsar el crecimiento de las ventas.",
+    "TEAM_TEXT_3": "En Fox Ordering nos destacamos por priorizar el éxito de nuestros socios restauranteros. No somos solo una plataforma; somos un equipo de profesionales comprometidos dedicados a ayudar a los restaurantes a prosperar en la era digital.",
+    "TEAM_TEXT_4": "Con más de 5,000 restaurantes en todo Estados Unidos, hemos sido testigos del poder transformador del pedido en línea de primera mano. Nuestra plataforma ha ayudado a los restaurantes a aumentar sus ventas, expandir su base de clientes y optimizar sus operaciones.",
+    "TEAM_TEXT_5": "¿Listo para experimentar la diferencia con Fox Ordering? Contáctanos hoy mismo y permítenos mostrarte cómo podemos ayudarte a transformar tu experiencia de pedidos en línea.",
+    "JOIN_OUR_TEAM_TITLE": "Únete a la manada",
+    "JOIN_OUR_TEAM_TEXT": "Este es el llamado para todos los espíritus creativos, audaces y extrovertidos.",
+    "JOIN_OUR_TEAM_BUTTON": "Aplica Ahora",
+    "CONTACT_US_TITLE": "Contáctanos",
+    "CONTACT_US_PHONE": " 866-883-6967 ",
+    "CONTACT_US_EMAIL": "contact@foxordering.com",
+    "CONTACT_US_ADDRESS": "4301 Oak Circle, Boca Raton, FL 33431"
+  },
   "SUPPORT": {
     "HERO_TITLE": "<strong>Si necesitas ayuda,</strong><br>explora una de estas opciones:",
     "HERO_SUBTITLE_1": "Soporte de Pedidos",

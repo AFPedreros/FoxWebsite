@@ -170,6 +170,25 @@
     "CALL_RELAY_SUBTITLE": "Effortlessly manage phone orders and customer inquiries with our call relay service.",
     "CALL_RELAY_TEXT": "With SMS integration, we share your menu and guide them through the easy online ordering process on your website."
   },
+  "ABOUT_US": {
+    "HERO_TITLE": "Watch us work",
+    "HERO_SUBTITLE": "We play to win!",
+    "HERO_TEXT": "We are passionate about good ideas, purposeful living, and team impact.Your business is in expert hands; choosing the best direct online ordering service is a game-changer you'll cheer for. Ready to play and win big with us? Let's make success the Fox Pack way!",
+    "TEAM_TITLE_1": "We are Fox Ordering",
+    "TEAM_TITLE_2": "What Sets Us Apart",
+    "TEAM_TEXT_1": "Born in 2014, Fox Ordering is a tech company with a mission to transform the online ordering experience for restaurants and their customers. We believe every restaurant, regardless of size, deserves access to affordable and effective online ordering solutions.",
+    "TEAM_TEXT_2": "We have been driven by the desire to empower restaurants with the tools they need to succeed in the digital age. We understand that online ordering is not just about taking orders; it's about building relationships, increasing customer loyalty, and driving sales growth.",
+    "TEAM_TEXT_3": "Fox Ordering stands out by prioritizing the success of our restaurant partners. We're not just a platform; we're a team of dedicated professionals committed to helping restaurants thrive in the digital era.",
+    "TEAM_TEXT_4": "With over 5,000 restaurants across the United States, we've witnessed firsthand the transformative power of online ordering. Our platform has helped restaurants increase their sales, expand their customer base, and streamline their operations.",
+    "TEAM_TEXT_5": "Ready to experience the Fox Ordering difference? Contact us today and let us show you how we can help you transform your online ordering experience.",
+    "JOIN_OUR_TEAM_TITLE": "Join the Fox Pack",
+    "JOIN_OUR_TEAM_TEXT": "This is the call for all creative, audacious and outgoing spirits",
+    "JOIN_OUR_TEAM_BUTTON": "Apply now",
+    "CONTACT_US_TITLE": "Contact Us",
+    "CONTACT_US_PHONE": " 866-883-6967 ",
+    "CONTACT_US_EMAIL": "contact@foxordering.com",
+    "CONTACT_US_ADDRESS": "4301 Oak Circle, Boca Raton, FL 33431"
+  },
   "SUPPORT": {
     "HERO_TITLE": "<strong>If you need help,</strong><br>explore one of these options",
     "HERO_SUBTITLE_1": "Order Support",

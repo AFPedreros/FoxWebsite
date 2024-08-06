@@ -23,6 +23,7 @@ export const ui = {
 		"nav.what-we-offer": "Nuestros Servicios",
 		"nav.support": "Soporte",
 		"nav.order-online": "Ordena en línea",
+		"nav.about-us": "Sobre Nosotros",
 		"nav.blog": "Blog",
 	},
 	en: {
@@ -30,6 +31,7 @@ export const ui = {
 		"nav.what-we-offer": "What we offer",
 		"nav.support": "Support",
 		"nav.order-online": "Order Online",
+		"nav.about-us": "About Us",
 		"nav.blog": "Blog",
 	},
 } as const
@@ -39,6 +41,7 @@ export const routes = {
 		"what-we-offer": "nuestros-servicios",
 		"support": "soporte",
 		"order-online": "ordena-en-linea",
+		"about-us": "sobre-nosotros",
 		"blog": "blog",
 
 		// BLOGS
@@ -48,6 +51,8 @@ export const routes = {
 	en: {
 		"what-we-offer": "what-we-offer",
 		"support": "support",
+		"order-online": "order-online",
+		"about-us": "about-us",
 		"blog": "blog",
 	},
 }
