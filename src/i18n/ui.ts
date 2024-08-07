@@ -27,6 +27,7 @@ export const ui = {
 		"nav.blog": "Blog",
 		"nav.google-3rd-party-disclosure-statement": "Google 3rd Party Disclosure Statement",
 		"nav.frequently-asked-questions": "Preguntas Frecuentes",
+		"nav.partners-and-integrations": "Socios e Integraciones",
 	},
 	en: {
 		"nav.home": "Home",
@@ -37,6 +38,7 @@ export const ui = {
 		"nav.blog": "Blog",
 		"nav.google-3rd-party-disclosure-statement": "Google 3rd Party Disclosure Statement",
 		"nav.frequently-asked-questions": "Frequently Asked Questions",
+		"nav.partners-and-integrations": "Partners and Integrations",
 	},
 } as const
 
@@ -48,6 +50,7 @@ export const routes = {
 		"about-us": "sobre-nosotros",
 		"blog": "blog",
 		"frequently-asked-questions": "preguntas-frecuentes",
+		"partners-and-integrations": "socios-e-integraciones",
 
 		// GOOGLE 3RD PARTY DISCLOSURE STATEMENT
 		"google-3rd-party-disclosure-statement": "google-3rd-party-disclosure-statement",
@@ -63,6 +66,7 @@ export const routes = {
 		"about-us": "about-us",
 		"blog": "blog",
 		"frequently-asked-questions": "frequently-asked-questions",
+		"partners-and-integrations": "partners-and-integrations",
 
 		// GOOGLE 3RD PARTY DISCLOSURE STATEMENT
 		"google-3rd-party-disclosure-statement": "google-3rd-party-disclosure-statement",

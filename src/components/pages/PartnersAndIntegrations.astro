@@ -1,0 +1,97 @@
+---
+import { Image } from "astro:assets"
+
+import androidLogo from "@/assets/partners-and-integrations/logo-android.png"
+import constructLogo from "@/assets/partners-and-integrations/logo-construct.png"
+import doordashLogo from "@/assets/partners-and-integrations/logo-doordash.png"
+import iosLogo from "@/assets/partners-and-integrations/logo-ios.png"
+import payAppleLogo from "@/assets/partners-and-integrations/logo-pay-apple.png"
+import stripeLogo from "@/assets/partners-and-integrations/logo-stripe.png"
+import twilioLogo from "@/assets/partners-and-integrations/logo-twilio.png"
+import orderWhithGoogle from "@/assets/partners-and-integrations/order-whith-google.png"
+import ChevronRightIcon from "@/components/icons/ChevronRight.astro"
+import { buttonVariants } from "@/components/ui/button"
+import { Separator } from "@/components/ui/separator"
+import { getI18N } from "@/i18n"
+import { getLangFromUrl, useTranslatedPath } from "@/i18n/utils"
+import RootLayout from "@/layouts/RootLayout.astro"
+import { cn } from "@/lib/utils"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+
+const lang = getLangFromUrl(Astro.url)
+const translatePath = useTranslatedPath(lang)
+---
+
+<RootLayout title={i18n.SEO.OUR_PARTNERS_TITLE} description={i18n.SEO.OUR_PARTNERS_DESCRIPTION}>
+	<main class="bg-[#09182b]">
+		<section class="h-screen w-full border-b pb-20 pt-40">
+			<div class="container flex flex-col items-center gap-8 text-center text-white">
+				<h1
+					class="mx-auto mb-8 text-balance text-5xl font-light tracking-tighter md:text-6xl lg:text-7xl"
+				>
+					{i18n.PARTNERS_AND_INTEGRATIONS.PARTNERS_TITLE}
+				</h1>
+
+				<div class="flex w-full flex-wrap items-start justify-between">
+					<div class="flex max-w-xs flex-col items-center justify-center gap-4">
+						<Image class="h-32 w-auto" src={doordashLogo} alt="" />
+						<Separator className="h-0.5 w-16" />
+						<p class="text-pretty">{i18n.PARTNERS_AND_INTEGRATIONS.DOORDASH_TEXT}</p>
+					</div>
+					<div class="flex max-w-xs flex-col items-center justify-center gap-4">
+						<Image class="h-32 w-auto" src={twilioLogo} alt="" />
+						<Separator className="h-0.5 w-16" />
+						<p class="text-pretty">{i18n.PARTNERS_AND_INTEGRATIONS.TWILIO_TEXT}</p>
+					</div>
+					<div class="flex max-w-xs flex-col items-center justify-center gap-4">
+						<Image class="h-32 w-auto" src={stripeLogo} alt="" />
+						<Separator className="h-0.5 w-16" />
+						<p class="text-pretty">{i18n.PARTNERS_AND_INTEGRATIONS.STRIPE_TEXT}</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="w-full py-20">
+			<div class="container flex flex-col items-center gap-8 text-center text-white">
+				<h1
+					class="mx-auto mb-8 text-balance text-5xl font-light tracking-tighter md:text-6xl lg:text-7xl"
+				>
+					{i18n.PARTNERS_AND_INTEGRATIONS.INTEGRATIONS_TITLE}
+				</h1>
+				<Image class="h-32 w-auto" src={orderWhithGoogle} alt="" />
+
+				<div class="space-y-4">
+					<p class="max-w-screen-md text-xl">{i18n.PARTNERS_AND_INTEGRATIONS.INTEGRATIONS_TEXT}</p>
+					<a
+						class:list={cn(buttonVariants({ variant: "link" }), "group h-fit w-fit p-0")}
+						href={translatePath("/google-3rd-party-disclosure-statement")}
+						>{i18n.PARTNERS_AND_INTEGRATIONS.INTEGRATIONS_LINK}
+						<ChevronRightIcon
+							class:list="ml-1 size-5 shrink-0 transition group-hover:translate-x-1"
+						/></a
+					>
+				</div>
+			</div>
+		</section>
+		<section class="w-full bg-[#DCD4D2] py-16">
+			<div class="container flex items-center gap-8">
+				<div class="flex items-center">
+					<Separator className="h-0.5 w-72 bg-black opacity-15" />
+					<div class="size-3 rounded-full bg-black opacity-15"></div>
+				</div>
+				<div class="flex flex-1 items-center justify-between opacity-30">
+					<Image class="h-20 w-auto" src={constructLogo} alt="" />
+					<Image class="h-20 w-auto" src={androidLogo} alt="" />
+					<Image class="h-20 w-auto" src={payAppleLogo} alt="" />
+					<Image class="h-20 w-auto" src={iosLogo} alt="" />
+				</div>
+				<div class="flex items-center">
+					<div class="size-3 rounded-full bg-black opacity-15"></div>
+					<Separator className="h-0.5 w-72 bg-black opacity-15" />
+				</div>
+			</div>
+		</section>
+	</main>
+</RootLayout>

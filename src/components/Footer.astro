@@ -36,7 +36,9 @@ const translatePath = useTranslatedPath(lang)
 			<div class="flex flex-col gap-y-1">
 				<h5 class="mb-5 text-xl font-bold text-primary">{i18n.FOOTER.PARTNER.TITLE}</h5>
 				<FooterLink href="/#">{i18n.FOOTER.PARTNER.ORDER_ONLINE}</FooterLink>
-				<FooterLink href="/#">{i18n.FOOTER.PARTNER.PARTNERS_AND_INTEGRATIONS}</FooterLink>
+				<FooterLink href={translatePath("/partners-and-integrations")}
+					>{i18n.FOOTER.PARTNER.PARTNERS_AND_INTEGRATIONS}</FooterLink
+				>
 				<FooterLink href="/#">{i18n.FOOTER.PARTNER.FROM_THE_RESTAURANT}</FooterLink>
 				<FooterLink href="/#">{i18n.FOOTER.PARTNER.REFER_RESTAURANT}</FooterLink>
 			</div>

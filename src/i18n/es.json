@@ -13,7 +13,9 @@
     "GOOGLE_THIRD_PARTY_TITLE": "Google 3rd Party Disclosure Statement",
     "GOOGLE_THIRD_PARTY_DESCRIPTION": "Learn more about how Google uses data when you use Fox Ordering",
     "FAQ_TITLE": "Preguntas Frecuentes",
-    "FAQ_DESCRIPTION": "Encuentra respuestas a las preguntas más frecuentes sobre Fox Ordering"
+    "FAQ_DESCRIPTION": "Encuentra respuestas a las preguntas más frecuentes sobre Fox Ordering",
+    "OUR_PARTNERS_TITLE": "Nuestros Socios e Integraciones",
+    "OUR_PARTNERS_DESCRIPTION": "Descubre los socios y las integraciones de Fox Ordering"
   },
   "HEADER": {
     "LOGO": "Volver a la página de inicio de lo Fox Ordering"
@@ -357,6 +359,15 @@
     "ANSWER_7": "Los depósitos directos se envían semanalmente, todos los jueves. Los depósitos directos deberían estar disponibles entre 1 y 3 días hábiles.",
     "QUESTION_8": "¿Fox Ordering funciona como un Marketplace?",
     "ANSWER_8": "No operamos como un marketplace. Fox Ordering funciona como un sistema de pedidos en línea directo, que cubre tanto la recogida como la entrega. Operamos a través del sitio web oficial del restaurante, y en casos donde el restaurante no tiene un sitio web, ofrecemos crear uno sin costo. Este proceso simplificado se facilita mediante el perfil de Google My Business, que actúa como un aliado beneficioso para Fox Ordering."
+  },
+  "PARTNERS_AND_INTEGRATIONS": {
+    "PARTNERS_TITLE": "Nuestros Socios",
+    "DOORDASH_TEXT": "Accede a la red mas grande de repartidores en Estados Unidos sin costo adicional.",
+    "TWILIO_TEXT": "Optimiza las reservas mientras proporcionas una comunicación rápida, segura y confiable con los clientes. ¡Nunca pierdas la oportunidad de conectarte con nuevos clientes!",
+    "STRIPE_TEXT": "Potencia tu restaurante con una plataforma de procesamiento de pagos fluida y segura. Disfruta de transacciones seguras sin tarifas ni costos adicionales.",
+    "INTEGRATIONS_TITLE": "Integraciones",
+    "INTEGRATIONS_TEXT": "Fox Ordering se integra con Order with Google para que los usuarios puedan descubrirte en la Búsqueda de Google y Maps, y ser redirigidos fácilmente a tu sitio web para completar su pedido.",
+    "INTEGRATIONS_LINK": "Declaración de divulgación de terceros de Google"
   },
   "TEXT_ERROR_FIELD_REQUIRED": "Completa este campo",
   "TEXT_ERROR_FIELD_EMAIL": "Ingresa un correo electrónico válido",

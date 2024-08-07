@@ -13,7 +13,9 @@
     "GOOGLE_THIRD_PARTY_TITLE": "Google 3rd Party Disclosure Statement",
     "GOOGLE_THIRD_PARTY_DESCRIPTION": "Learn more about how Google uses data when you use Fox Ordering",
     "FAQ_TITLE": "Frequently Asked Questions",
-    "FAQ_DESCRIPTION": "Find answers to the most common questions about Fox Ordering"
+    "FAQ_DESCRIPTION": "Find answers to the most common questions about Fox Ordering",
+    "OUR_PARTNERS_TITLE": "Our Partners and Integrations",
+    "OUR_PARTNERS_DESCRIPTION": "Discover the partners and integrations that work with Fox Ordering"
   },
   "HEADER": {
     "LOGO": "Back to Fox Ordering home page"
@@ -357,6 +359,15 @@
     "ANSWER_7": "Direct deposits are sent out weekly, every Thursday. Direct deposits should be available between 1-3 business days.",
     "QUESTION_8": "Does Fox Ordering work as a Marketplace?",
     "ANSWER_8": "We don't operate as a marketplace. Fox Ordering functions as a direct online ordering system, covering both Pick up and Delivery. We operate through the restaurant's official website, and in cases where a restaurant lacks a website, we offer to create one at no cost. This streamlined process is facilitated by the Google My Business profile, serving as a beneficial ally for Fox Ordering."
+  },
+  "PARTNERS_AND_INTEGRATIONS": {
+    "PARTNERS_TITLE": "Our Partners",
+    "DOORDASH_TEXT": "Access to the largest network of drivers in the U.S. without additional commission costs.",
+    "TWILIO_TEXT": "Optimize bookings while providing fast, secure, and reliable guest communication. Never miss a chance to connect with new customers!",
+    "STRIPE_TEXT": "Empower your restaurant with a seamless and secure payment processing platform. Enjoy secure transactions with no extra fees or costs.",
+    "INTEGRATIONS_TITLE": "Integrations",
+    "INTEGRATIONS_TEXT": "Fox Ordering integrates with Order with Google so users can discover you on Google Search and Maps and easily be redirected to your website to complete their order.",
+    "INTEGRATIONS_LINK": "Google 3rd Party Disclosure Statement"
   },
   "TEXT_ERROR_FIELD_REQUIRED": "Complete this field",
   "TEXT_ERROR_FIELD_EMAIL": "Enter a valid email",
