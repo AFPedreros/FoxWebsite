@@ -1,9 +1,7 @@
 ---
-import { Image } from "astro:assets"
-
-import foxLogo from "@/assets/logo-fox-ordering.png"
 import { FreeDemoDialog } from "@/components/FreeDemoDialog"
 import HeaderLink from "@/components/HeaderLink.astro"
+import FoxLogo from "@/components/icons/FoxLogo.astro"
 import LanguageSelector from "@/components/LanguageSelector.astro"
 import { getI18N } from "@/i18n"
 import { getLangFromUrl, useTranslatedPath } from "@/i18n/utils"
@@ -20,9 +18,7 @@ const translatePath = useTranslatedPath(lang)
 	class="fixed z-50 flex h-20 w-full items-center bg-background px-9 text-foreground"
 >
 	<nav class="flex w-full items-center justify-between">
-		<a href={translatePath("/")} aria-label={i18n.HEADER.LOGO}
-			><Image class="h-12 w-auto" src={foxLogo} alt="Fox Ordering logo." /></a
-		>
+		<a href={translatePath("/")} aria-label={i18n.HEADER.LOGO}> <FoxLogo class="h-12 w-auto" /></a>
 		<div class="flex items-center gap-4">
 			<HeaderLink href={translatePath("/what-we-offer")}>{i18n.HEADER_WHAT_WE_OFFER}</HeaderLink>
 			<HeaderLink href={translatePath("/about-us")}>{i18n.HEADER_ABOUT_US}</HeaderLink>
@@ -35,17 +31,17 @@ const translatePath = useTranslatedPath(lang)
 			<FreeDemoDialog client:load locale={currentLocale ?? "en"} />
 		</div>
 	</nav>
-	<style>
-		#header-nav {
-			animation: blur linear both;
-			animation-timeline: scroll(root);
-			animation-range: 0 200px;
-		}
-
-		@keyframes blur {
-			to {
-				background-color: hsl(var(--background));
-			}
-		}
-	</style>
 </header>
+<!-- <style>
+	#header-nav {
+		animation: blur linear both;
+		animation-timeline: scroll(root);
+		animation-range: 0 200px;
+	}
+
+	@keyframes blur {
+		to {
+			background-color: hsl(var(--background));
+		}
+	}
+</style> -->
