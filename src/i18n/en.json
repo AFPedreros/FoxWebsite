@@ -9,7 +9,11 @@
     "ORDER_ONLINE_TITLE": "Order Online",
     "ORDER_ONLINE_DESCRIPTION": "Order food from your favorite restaurants with Fox Ordering",
     "BLOG_TITLE": "Blog",
-    "BLOG_DESCRIPTION": "Read the latest news and updates from Fox Ordering"
+    "BLOG_DESCRIPTION": "Read the latest news and updates from Fox Ordering",
+    "GOOGLE_THIRD_PARTY_TITLE": "Google 3rd Party Disclosure Statement",
+    "GOOGLE_THIRD_PARTY_DESCRIPTION": "Learn more about how Google uses data when you use Fox Ordering",
+    "FAQ_TITLE": "Frequently Asked Questions",
+    "FAQ_DESCRIPTION": "Find answers to the most common questions about Fox Ordering"
   },
   "HEADER": {
     "LOGO": "Back to Fox Ordering home page"
@@ -18,6 +22,7 @@
   "HEADER_ABOUT_US": "About Us",
   "HEADER_SUPPORT": "Support",
   "HEADER_ORDER_ONLINE": "Order Online",
+  "HEADER_BLOG": "Blog",
   "HEADER_BUTTON": "Get a free demo",
   "HERO_TITLE": "Unleash your Restaurant’s Success!",
   "HERO_SUBTITLE": "<strong>Increase sales, orders, & maximize profits.</strong> Try our personalized ordering system and experience the best direct online ordering service for your restaurant <strong>#FoxExperience.</strong>",
@@ -309,6 +314,47 @@
   },
   "BLOG": {
     "HERO_TITLE": "Meet our <strong>Blog</strong>"
+  },
+  "GOOGLE_THIRD_PARTY_DISCLOSURE": {
+    "TITLE": "Work with third parties",
+    "SUBTITLE_1": "About Google Business Profile",
+    "SUBTITLE_2": "Using a third party",
+    "SUBTITLE_3": "How to work with a third party",
+    "SUBTITLE_4": "Deceptive behavior",
+    "SUBTITLE_5": "Report a violation of third-party policy",
+    "TEXT_1": " Google Business Profile makes it easy for customers to find and connect with your business when using Google Search and Maps. When you create and verify a Business Profile, you can manage how your business appears on Google to make a great first impression and keep your info up-to-date. As people find you on Google, you’ll gain insights on customer behavior and learn how they’re discovering and interacting with your business.",
+    "TEXT_2": "Business Profile gives you tools that can help your business succeed, but sometimes running a enough time to establish and maintain a successful Business Profile. If you need a helping hand or want some advice choose to work with a third party. There are many third parties to choose from, ranging from large companies that manage hundreds of customers to individual web consultants.",
+    "TEXT_3": "Although Business Profile is a tool that can be used at no charge, third parties often charge a fee to manage your profile. They can provide valuable services like keeping your profile up-to-date, providing you with customer insights, answering your questions, and responding to reviews. It’s important to understand the benefits that you may be get from a third party so that you can evaluate whether or not you’re getting the best return on your investment.",
+    "TEXT_4": "Here are five best practices for selecting and working with a third party:",
+    "TEXT_5": "<ol class='list-decimal pl-4 space-y-2'><li><strong>Be selective. </strong>Ask these questions when selecting a third party to work with:<ul class='list-disc pl-4'><li>Has it managed Business Profiles before?</li><li>Has it managed businesses with similar budgets or target audiences?</li><li>What other services can it provide to grow your business?</li></ul></li><li><strong>Work with one at a time.</strong> You may be tempted to divide your budget among multiple third parties to see which one drives the best results, but keep in mind that it’s best to test them one at a time. Your business can only appear once on Google, so it’s difficult to test multiple third parties at once.</li><li><strong>Educate yourself.</strong> It doesn’t take much time to get up to speed with how Business Profile works and understand how to use its features. Review the <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://www.google.com/business/resources/'>resources and FAQs</a> for a basic introduction to Business Profile, then explore the <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://support.google.com/business/#topic=4596754' target='_blank'>Help Center</a> to find answers to specific questions. Understanding how Business Profile works will help you make more informed decisions when working with a third party.</li><li><strong>Trust experience.</strong> Companies that have managed hundreds of businesses on Google are more likely to have expertise with Business Profile. Before you hire a third party, talk to its staff members to understand their previous experience managing businesses on Google.</li><li><strong>Evaluate your performance.</strong> You can find a wide range of insights in your Business Profile account that can give you info about how customers are finding and interacting with your business on Google. Spend time each month reviewing your profile's performance and evaluating the results you’re getting from working with a third party. Check for things like updated photos and current business hours, as well as changes in how customers are discovering your business online.</li></ol>",
+    "TEXT_6": "Many third parties represent the best interests of their clients, but some third parties are reputable Here’s a list of red flags to watch out for when selecting and working a third party:",
+    "TEXT_7": "<ul class='list-disc pl-4 space-y-2'><li><strong>Not being transparent.</strong> You have a right to know how users are interacting with your business, including specific data (like the number of views and clicks on your Business Profile).</li><li><strong>Guaranteeing</strong> placement on Google. It's not possible for third parties to influence the order in which your business appears on Google Search or Maps. <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://support.google.com/business/answer/7091?sjid=9693406255884135070-NA' target='_blank'>Learn more about local search ranking.</a></li><li><strong>Claiming to work for Google.</strong> If a third party representative claims to be employed by Google, ask for their name and request that they email you from their @google.com (not @gmail.com) email address.</li><li><strong>Making threats.</strong> Third parties can’t remove your business from Google or access your profile without your explicit permission.</li><li><strong>Deceptive pricing.</strong> Malicious third parties may not charge you using the pricing you agreed to. Always get an official copy of your agreement before working with a third party.</li></ul>",
+    "TEXT_8": "Think a third-party partner is violating the <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://support.google.com/business/answer/7353941?sjid=9693406255884135070-NA' target='_blank'>policy</a>? Let us know: <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://support.google.com/business/contact/gmb_3p_complaints?sjid=9693406255884135070-NA' target='_blank'>Report a violation of third-party policy.</a>",
+    "TEXT_9": "While we may not respond personally when you contact us about a third party, we will investigate your comments and, if necessary, take appropriate action."
+  },
+  "FAQ": {
+    "TITLE": "Frequently Asked<br><strong>Questions</strong>",
+    "QUESTION_1": "How much is Fox Ordering convenience fee?",
+    "ANSWER_1": "Fox Ordering convenience fee is 5% over subtotal order value",
+    "QUESTION_2": "Do I need to pay for my tablet?",
+    "ANSWER_2": "No, tablets are included as part of our service.",
+    "QUESTION_3": "When do I receive my tablet?",
+    "ANSWER_3": "3-7 business days.",
+    "QUESTION_4": "Who takes care of my deliveries?",
+    "ANSWER_4": "Our delivery partner is Doordash, they will be in charge of delivering orders to the final customer.",
+    "QUESTION_5": "Who should I talk to if I have an issue with a driver?",
+    "ANSWER_5_1": "Doordash support information can be found in the View order section; then under Options/Cancel, it is the fourth tab from the top: Help.",
+    "ANSWER_5_2": "Steps to follow:",
+    "ANSWER_5_3": "Call DoorDash Support (855) 431-0459, explain your case and ask for a full refund. IMPORTANT: DoorDash should send you a confirmation email to the restaurant's email.",
+    "ANSWER_5_4": "Forward the received email to support@foxordering.com",
+    "ANSWER_5_5": "Call our support number (866) 883 6967 and explain the case. One of our agents will contact you to manage the refund to your customer and confirm the payment of the prepared order.",
+    "ANSWER_5_6": "In no case should the restaurant refund in cash. The customer will receive a refund to the same payment method used when ordering online, within up to 5 business days.",
+    "QUESTION_6": "Do I get a printer sent to me?",
+    "ANSWER_6": "We don't deliver printers, however the printer that works with our tablet and service can be purchased on amazon at the following link <a style='text-decoration-thickness: 1px' class='text-primary underline-offset-4 hover:underline' href='https://www.amazon.com/gp/product/B01DVEOLFG/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&th=1'>Buy printer on Amazon</a>",
+    "QUESTION_7": "How often do I get paid?",
+    "ANSWER_7": "Direct deposits are sent out weekly, every Thursday. Direct deposits should be available between 1-3 business days.",
+    "QUESTION_8": "Does Fox Ordering work as a Marketplace?",
+    "ANSWER_8": "We don't operate as a marketplace. Fox Ordering functions as a direct online ordering system, covering both Pick up and Delivery. We operate through the restaurant's official website, and in cases where a restaurant lacks a website, we offer to create one at no cost. This streamlined process is facilitated by the Google My Business profile, serving as a beneficial ally for Fox Ordering."
   },
   "TEXT_ERROR_FIELD_REQUIRED": "Complete this field",
   "TEXT_ERROR_FIELD_EMAIL": "Enter a valid email",

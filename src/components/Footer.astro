@@ -50,9 +50,13 @@ const translatePath = useTranslatedPath(lang)
 
 			<div class="flex flex-col gap-y-1">
 				<h5 class="mb-5 text-xl font-bold text-primary">{i18n.FOOTER.SUPPORT.TITLE}</h5>
-				<FooterLink href="/#">{i18n.FOOTER.SUPPORT.FAQ}</FooterLink>
+				<FooterLink href={translatePath("/frequently-asked-questions")}
+					>{i18n.FOOTER.SUPPORT.FAQ}</FooterLink
+				>
 				<FooterLink href="/#">{i18n.FOOTER.SUPPORT.SPEAK_WITH_AGENT}</FooterLink>
-				<FooterLink href="/#">{i18n.FOOTER.SUPPORT.GOOGLE_3RD_PARTY}</FooterLink>
+				<FooterLink href={translatePath("/google-3rd-party-disclosure-statement")}
+					>{i18n.FOOTER.SUPPORT.GOOGLE_3RD_PARTY}</FooterLink
+				>
 			</div>
 
 			<div class="flex h-auto min-w-40 items-center">

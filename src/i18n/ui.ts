@@ -25,6 +25,8 @@ export const ui = {
 		"nav.order-online": "Ordena en línea",
 		"nav.about-us": "Sobre Nosotros",
 		"nav.blog": "Blog",
+		"nav.google-3rd-party-disclosure-statement": "Google 3rd Party Disclosure Statement",
+		"nav.frequently-asked-questions": "Preguntas Frecuentes",
 	},
 	en: {
 		"nav.home": "Home",
@@ -33,6 +35,8 @@ export const ui = {
 		"nav.order-online": "Order Online",
 		"nav.about-us": "About Us",
 		"nav.blog": "Blog",
+		"nav.google-3rd-party-disclosure-statement": "Google 3rd Party Disclosure Statement",
+		"nav.frequently-asked-questions": "Frequently Asked Questions",
 	},
 } as const
 
@@ -43,6 +47,10 @@ export const routes = {
 		"order-online": "ordena-en-linea",
 		"about-us": "sobre-nosotros",
 		"blog": "blog",
+		"frequently-asked-questions": "preguntas-frecuentes",
+
+		// GOOGLE 3RD PARTY DISCLOSURE STATEMENT
+		"google-3rd-party-disclosure-statement": "google-3rd-party-disclosure-statement",
 
 		// BLOGS
 		"blog/improve-customer-experience-restaurant": "mejorar-experiencia-cliente-restaurante",
@@ -54,5 +62,9 @@ export const routes = {
 		"order-online": "order-online",
 		"about-us": "about-us",
 		"blog": "blog",
+		"frequently-asked-questions": "frequently-asked-questions",
+
+		// GOOGLE 3RD PARTY DISCLOSURE STATEMENT
+		"google-3rd-party-disclosure-statement": "google-3rd-party-disclosure-statement",
 	},
 }

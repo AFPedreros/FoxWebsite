@@ -1,0 +1,51 @@
+---
+import { getI18N } from "@/i18n"
+import RootLayout from "@/layouts/RootLayout.astro"
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
+---
+
+<RootLayout
+	title={i18n.SEO.GOOGLE_THIRD_PARTY_TITLE}
+	description={i18n.SEO.GOOGLE_THIRD_PARTY_DESCRIPTION}
+>
+	<main class="border-b bg-white pt-20 text-black">
+		<section class="container max-w-screen-md text-pretty py-20">
+			<h1
+				class="mx-auto mb-8 text-balance text-center text-5xl font-light tracking-tighter md:text-6xl lg:text-7xl"
+			>
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TITLE}
+			</h1>
+
+			<h3 class="mb-4 text-balance text-3xl font-bold">
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.SUBTITLE_1}
+			</h3>
+			<p class="mb-8">{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_1}</p>
+
+			<h3 class="mb-4 text-balance text-3xl font-bold">
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.SUBTITLE_2}
+			</h3>
+			<p class="mb-8">{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_2}</p>
+
+			<h3 class="mb-4 text-balance text-3xl font-bold">
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.SUBTITLE_3}
+			</h3>
+			<p class="mb-4">{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_3}</p>
+			<p class="mb-4">{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_4}</p>
+			<div set:html={i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_5} class="mb-8" />
+
+			<h3 class="mb-4 text-balance text-3xl font-bold">
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.SUBTITLE_4}
+			</h3>
+			<p class="mb-4">{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_6}</p>
+			<div set:html={i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_7} class="mb-8" />
+
+			<h3 class="mb-4 text-balance text-3xl font-bold">
+				{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.SUBTITLE_5}
+			</h3>
+			<div set:html={i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_8} class="mb-4" />
+			<p>{i18n.GOOGLE_THIRD_PARTY_DISCLOSURE.TEXT_9}</p>
+		</section>
+	</main>
+</RootLayout>
