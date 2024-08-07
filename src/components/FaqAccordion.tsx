@@ -51,10 +51,16 @@ export function FaqAccordion({ locale }: FaqAccordionProps) {
 
 			<AccordionItem value="item-6">
 				<AccordionTrigger className="text-xl font-bold">{i18n.FAQ.QUESTION_6}</AccordionTrigger>
-				<AccordionContent
-					dangerouslySetInnerHTML={{ __html: i18n.FAQ.ANSWER_6 }}
-					className="text-base"
-				></AccordionContent>
+				<AccordionContent className="text-base">
+					{i18n.FAQ.ANSWER_6_1}
+					<a
+						className="text-primary decoration-1 underline-offset-4 hover:underline"
+						target="_blank"
+						href={i18n.FAQ.ANSWER_6_2}
+					>
+						{i18n.FAQ.ANSWER_6_3}
+					</a>
+				</AccordionContent>
 			</AccordionItem>
 
 			<AccordionItem value="item-7">
