@@ -11,6 +11,8 @@ const i18n = getI18N({ currentLocale })
 		class="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-br from-background from-30% to-primary"
 	>
 	</div>
+	<div class="triangle absolute left-2/3 top-1/2 h-10 w-5 -translate-y-1/2 bg-primary"></div>
+
 	<div class="container flex h-full items-center text-black">
 		<h2 class="mr-8 text-nowrap text-3xl font-bold">
 			{i18n.ABOUT_US.JOIN_OUR_TEAM_TITLE}
@@ -37,3 +39,9 @@ const i18n = getI18N({ currentLocale })
 		</div>
 	</div>
 </section>
+
+<style>
+	.triangle {
+		clip-path: polygon(0 0, 100% 50%, 0 100%);
+	}
+</style>
